@@ -1,0 +1,21 @@
+{
+    "name": "alice",
+    "displayName": "Alice",
+    "description": "A theme I made for VSCode because every theme, to me, looks like the next.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Alice",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Alice-color-theme.json"
+            }
+        ]
+    }
+}
