@@ -92,7 +92,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F7A9A8</string>
+                <string>#aefcc5</string>
             </dict>
         </dict>
         <dict>
@@ -114,7 +114,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF7DE9</string>
+                <string>#ff96ed</string>
                 <key>fontStyle</key>
                 <string>bold</string>
             </dict>
@@ -203,7 +203,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#8cdaff</string>
+                <string>#cf756d</string>
             </dict>
         </dict>
         <dict>
@@ -229,7 +229,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#FF8F86</string>
+                <string>#73c1f5</string>
             </dict>
         </dict>
         <dict>
@@ -242,7 +242,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#8cdaff</string>
+                <string>#73c1f5</string>
             </dict>
         </dict>
         <dict>
@@ -279,7 +279,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#96ffb1</string>
+                <string>#fcb4ae</string>
             </dict>
         </dict>
         <dict>
@@ -329,12 +329,99 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#3fb2ff</string>
+                <string>#73c1f5</string>
             </dict>
         </dict>
 
 
         <!-- PYTHON -->
+        <dict>
+            <key>name</key>
+            <string>Python: Keywords</string>
+            <key>scope</key>
+            <string>
+                keyword.control.flow.python,
+                keyword.operator.logical.python,
+                keyword.operator.assignment.python,
+                punctuation.separator.colon.python
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9691ff</string>
+                <!-- purple -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Python: Regex</string>
+            <key>scope</key>
+            <string>
+                keyword.operator.quantifier.regexp
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff96ed</string>
+                <!-- pink -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Python: Functions</string>
+            <key>scope</key>
+            <string>
+                support.function.builtin.python,
+                storage.type.function.python,
+                punctuation.section.function.begin.python,
+                punctuation.section.function.end.python,
+                punctuation.section.function.begin.python,
+                meta.function-call.python,
+                meta.function-call.generic.python
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#3fb2ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Python: Storage</string>
+            <key>scope</key>
+            <string>
+                keyword.control.import.python,
+                keyword.control.import.from.python,
+                storage.type.class.python,
+                storage.type.string.python,
+                storage.modifier.global.python
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#3fb2ff</string>
+                <!-- blue -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Python: F String Placeholders</string>
+            <key>scope</key>
+            <string>
+                constant.character.format.placeholder.other.python
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#fcb4ae</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Python Type</string>
@@ -349,7 +436,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#96ffb1</string>
+                <string>#fcb4ae</string>
             </dict>
         </dict>
         <dict>
@@ -378,7 +465,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#FF7DE9</string>
+                <string>#ff96ed</string>
             </dict>
         </dict>
         <dict>
@@ -421,7 +508,8 @@
             <key>scope</key>
             <string>
                 variable.parameter.function.language.special.self.python,
-                variable.language.special.self.python
+                variable.language.special.self.python,
+                entity.other.inherited-class.python
             </string>
             <key>settings</key>
             <dict>
@@ -463,47 +551,23 @@
                 support.punctuation.expression,
                 <!-- string.quoted.double.single-line.python, -->
                 <!-- string.quoted.single.single-line.python, -->
-                constant.other.symbol,
-                entity.other.inherited-class
+                constant.other.symbol
             </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#FF7DE9</string>
+                <string>#ff96ed</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Python: Storage</string>
+            <string>Python: Meta Function Arguments</string>
             <key>scope</key>
             <string>
-                keyword.control.import.python,
-                keyword.control.import.from.python,
-                storage.type.class.python,
-                storage.type.function.python,
-                storage.type.string.python,
-                storage.modifier.global.python,
-                punctuation.section.function.begin.python
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#00acfc</string>
-                <!-- blue -->
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Python: Meta Tokens</string>
-            <key>scope</key>
-            <string>
-                meta.function-call.python,
-                meta.fstring.python,
-                meta.function-call.arguments.python
+                meta.function-call.arguments.python,
+                meta.fstring.python
             </string>
             <key>settings</key>
             <dict>
@@ -528,54 +592,6 @@
                 <string></string>
                 <key>foreground</key>
                 <string>#ececec</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Python: Invoked Function</string>
-            <key>scope</key>
-            <string>
-                meta.function-call.generic.python,
-                constant.character.format.placeholder.other.python
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#00acfc</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Python: Keywords</string>
-            <key>scope</key>
-            <string>
-                keyword.control.flow.python,
-                keyword.operator.logical.python,
-                keyword.operator.assignment.python,
-                punctuation.separator.colon.python
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#9691ff</string>
-                <!-- purple -->
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Python: Builtin Function</string>
-            <key>scope</key>
-            <string>
-                support.function.builtin.python
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#00acfc</string>
             </dict>
         </dict>
         <dict>
@@ -660,7 +676,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#db7b74</string>
+                <string>#73c1f5</string>
             </dict>
         </dict>
         <dict>
@@ -744,7 +760,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF7DE9</string>
+                <string>#ff96ed</string>
             </dict>
         </dict>
         <dict>
@@ -836,7 +852,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF7DE9</string>
+                <string>#ff96ed</string>
             </dict>
         </dict>
         <dict>
@@ -879,7 +895,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#FF7DE9</string>
+                <string>#ff96ed</string>
             </dict>
         </dict>
         <dict>
@@ -1107,7 +1123,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#00acfc</string>
+                <string>#3fb2ff</string>
             </dict>
         </dict>
 
@@ -1141,7 +1157,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#9691ff</string>
+                <string>#73c1f5</string>
             </dict>
         </dict>
         <dict>
