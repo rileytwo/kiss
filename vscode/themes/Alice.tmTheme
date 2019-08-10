@@ -116,7 +116,7 @@
                 <key>foreground</key>
                 <string>#ff96ed</string>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
             </dict>
         </dict>
         <dict>
@@ -216,7 +216,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#3fb2ff</string>
+                <string>#fcb4ae</string>
             </dict>
         </dict>
         <dict>
@@ -937,8 +937,6 @@
         </dict>
 
 
-
-
         <!-- MARKDOWN -->
         <dict>
             <key>name</key>
@@ -1092,6 +1090,69 @@
         </dict>
 
 
+        <!-- JAVASCRIPT -->
+        <dict>
+            <key>name</key>
+            <string>JS: Functions</string>
+            <key>scope</key>
+            <string>
+                entity.name.function.js
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#fcb4ae</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JS: Keyword Operator New</string>
+            <key>scope</key>
+            <string>
+                keyword.operator.new.js
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#3fb2ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JS: Object Properties</string>
+            <key>scope</key>
+            <string>
+                variable.other.property.js
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#73c1f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JS: ReadWrite Variable/Other</string>
+            <key>scope</key>
+            <string>
+                variable.other.readwrite.js,
+                variable.other.object.js
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#f0f0f0</string>
+            </dict>
+        </dict>
+
 
         <!-- XML/tags -->
         <dict>
@@ -1203,7 +1264,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#F9F1A5</string>
+                <string>#fcb4ae</string>
             </dict>
         </dict>
 
