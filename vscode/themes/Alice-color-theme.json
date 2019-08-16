@@ -1,50 +1,52 @@
 {
 	"tokenColors": "./Alice.tmTheme",
-	"colors": {
+	"colors"     : {
 
 		// UI Elements
-		"focusBorder": "#3f3e6d",
-		"foreground": "#a1a1a1",
-		"widget.shadow": "#111111",
+		"focusBorder"  : "#3f3e6d",
+		"foreground"   : "#a1a1a1",
 
-		"textLink.foreground": "#9691ff",
+		"textLink.foreground"      : "#9691ff",
 		"textLink.activeForeground": "#FF7DE9",
 
-		"input.background": "#222222",
-		"input.border": "#2b2b2b",
-		"inputOption.activeBorder": "#333333",
-		"input.foreground": "#ffffff",
+		"input.background": "#222",
+		"input.border"    : "#2b2b2b",
+		"widget.shadow"   : "#222",
+		"scrollbar.shadow": "#222",
 
-		"activityBar.background": "#151515",
-		"titleBar.activeBackground": "#151515",
+		"input.foreground"        : "#ffffff",
+		"inputOption.activeBorder": "#333",
+
+		"activityBar.background"            : "#151515",
+		"titleBar.activeBackground"         : "#151515",
 		"peekViewResult.selectionForeground": "#e3e3e3",
 
-		"statusBar.background": "#151515",
-		"statusBar.noFolderBackground": "#151515",
+		"statusBar.background"         : "#151515",
+		"statusBar.noFolderBackground" : "#151515",
 		"statusBar.debuggingBackground": "#151515",
-		"statusBar.border": "#151515",
+		"statusBar.border"             : "#151515",
 
-		"tab.inactiveBackground": "#151515",
-		"tab.activeBackground": "#151515",
+		"tab.inactiveBackground"  : "#151515",
+		"tab.activeBackground"    : "#151515",
 		"tab.activeModifiedBorder": "#9691ff",
-		"tab.activeBorder": "#9691ff",
+		"tab.activeBorder"        : "#9691ff",
 
-		"list.activeSelectionForeground": "#e3e3e3",
-		"list.activeSelectionBackground": "#4d4c85",
+		"list.activeSelectionForeground"  : "#e3e3e3",
+		"list.activeSelectionBackground"  : "#4d4c85",
 		"list.inactiveSelectionBackground": "#2c2c4d",
 		"list.inactiveSelectionForeground": "#b0b0b0",
-		"list.focusBackground": "#4d4c85",
-		"list.focusForeground": "#ffffff",
-		"list.inactiveFocusBackground": "#2c2c4d",
-		"list.hoverBackground": "#2c2c4d",
-		"list.hoverForeground": "#e3e3e3",
-		"list.highlightForeground": "#e3e3e3",
+		"list.focusBackground"            : "#4d4c85",
+		"list.focusForeground"            : "#ffffff",
+		"list.inactiveFocusBackground"    : "#2c2c4d",
+		"list.hoverBackground"            : "#2c2c4d",
+		"list.hoverForeground"            : "#e3e3e3",
+		"list.highlightForeground"        : "#e3e3e3",
 
 		"sideBar.background": "#151515",
-		"sideBar.border": "#151515",
+		"sideBar.border"    : "#151515",
 
-		"dropdown.background": "#222222",
-		"dropdown.border": "#2b2b2b",
+		"dropdown.background": "#222",
+		"dropdown.border"    : "#2b2b2b",
 		"dropdown.foreground": "#e3e3e3",
 
 		"button.background": "#9691ff",
@@ -55,34 +57,40 @@
 		"extensionButton.prominentHoverBackground": "#3f3e6d",
 		"extensionButton.prominentForeground": "#e3e3e3",
 
+
 		// Editor
-		"editor.background": "#151515",
-		"editor.foreground": "#ffffff",
+		"editor.background"             : "#151515",
+		"editor.foreground"             : "#ffffff",
 		"editor.lineHighlightBackground": "#1E1E1E",
 
-		"editor.findMatchBackground": "#666666",
-		"editor.findMatchHighlightBackground": "#333333",
+		"editor.findMatchBackground"         : "#444",
+		"editor.findMatchHighlightBackground": "#333",
+		"editor.findMatchBorder"             : "#9691ff",
+		"editor.findMatchHighlightBorder"    : "#2c2c4d",
 
-		"editor.selectionBackground": "#444444",
-		"editor.selectionHighlightBackground": "#222222",
+		"editor.selectionBackground"         : "#444",
+		"editor.selectionHighlightBackground": "#222",
 
-		"editorSuggestWidget.foreground": "#b0b0b0",
+		"editorSuggestWidget.foreground"         : "#b0b0b0",
 		"editorSuggestWidget.highlightForeground": "#ffffff",
 
-		"editorCursor.foreground": "#FF7E81",
+		"editorWidget.background": "#222",
+		"editorWidget.border": "#222",
+
+		"editorCursor.foreground"    : "#FF7E81",
 		"editorWhitespace.foreground": "#ffffff",
 
-		"editorGroupHeader.tabsBackground": "#151515",
+		"editorGroupHeader.tabsBackground"  : "#151515",
 		"editorGroupHeader.noTabsBackground": "#151515",
 
 		"editorIndentGuide.activeBackground": "#505050",
-		"editorIndentGuide.background": "#202020",
+		"editorIndentGuide.background"      : "#202020",
 
-		"editorBracketMatch.border": "#000000",
+		"editorBracketMatch.border"    : "#000",
 		"editorBracketMatch.background": "#505050",
 
 		"editorLineNumber.activeForeground": "#00beff",
-		"editorLineNumber.foreground": "#a6a6a6"
+		"editorLineNumber.foreground"      : "#a6a6a6"
 
 	},
 	"name": "Alice"
