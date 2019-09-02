@@ -1189,6 +1189,24 @@
         </dict>
 
 
+        <!-- SHELL -->
+        <dict>
+            <key>name</key>
+            <string>Variable Definition</string>
+            <key>scope</key>
+            <string>
+                punctuation.definition.variable.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#FF8F86</string>
+            </dict>
+        </dict>
+
+
         <!-- POWERSHELL -->
         <dict>
             <key>name</key>
