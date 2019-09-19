@@ -1225,6 +1225,38 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>PowerShell Hashtable Begin</string>
+            <key>scope</key>
+            <string>
+                keyword.other.hashtable.begin.powershell,
+                keyword.other.hashtable.end.powershell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#9691ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pwsh Subexpressions and Unary Operators</string>
+            <key>scope</key>
+            <string>
+                meta.group.complex.subexpression.powershell,
+                keyword.operator.unary.powershell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#9691ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>PowerShell Variable Parameter</string>
             <key>scope</key>
             <string>
@@ -1237,6 +1269,37 @@
                 <string></string>
                 <key>foreground</key>
                 <string>#73c1f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>PowerShell Functions</string>
+            <key>scope</key>
+            <string>
+                support.function.powershell,
+                storage.type.powershell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#3fb2ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>PowerShell Functions</string>
+            <key>scope</key>
+            <string>
+                entity.name.function.powershell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#fcb4ae</string>
             </dict>
         </dict>
         <dict>
@@ -1266,25 +1329,10 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#E6E6E6</string>
+                <string>#ff96ed</string>
             </dict>
         </dict>
-        <dict>
-            <key>name</key>
-            <string>PowerShell Hashtable Begin</string>
-            <key>scope</key>
-            <string>
-                keyword.other.hashtable.begin.powershell,
-                keyword.other.hashtable.end.powershell
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#fcb4ae</string>
-            </dict>
-        </dict>
+
 
         <!-- TWIG -->
         <dict>
