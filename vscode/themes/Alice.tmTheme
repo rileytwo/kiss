@@ -838,6 +838,20 @@
                 <string>#f0f0f0</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Lua Method Dots</string>
+            <key>scope</key>
+            <string>
+                punctuation.accessor
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#3fb2ff</string>
+            </dict>
+        </dict>
+
 
         <!-- CSS -->
         <dict>
