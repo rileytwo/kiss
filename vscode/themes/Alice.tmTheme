@@ -824,6 +824,21 @@
         </dict>
 
 
+        <!-- Lua -->
+        <dict>
+            <key>name</key>
+            <string>Lua Vairables</string>
+            <key>scope</key>
+            <string>
+                variable.other.lua
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f0f0f0</string>
+            </dict>
+        </dict>
+
         <!-- CSS -->
         <dict>
             <key>name</key>
