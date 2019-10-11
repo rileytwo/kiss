@@ -92,7 +92,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#aefcc5</string>
+                <string>#83fcbd</string>
             </dict>
         </dict>
         <dict>
@@ -368,11 +368,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Python: Functions</string>
+            <string>Python: Functions/Declarations</string>
             <key>scope</key>
             <string>
-                support.function.builtin.python,
                 storage.type.function.python,
+                storage.type.class.python,
+                storage.type.string.python,
+                storage.modifier.global.python,
                 punctuation.section.function.begin.python,
                 punctuation.section.function.end.python,
                 punctuation.section.function.begin.python,
@@ -394,16 +396,14 @@
             <string>
                 keyword.control.import.python,
                 keyword.control.import.from.python,
-                storage.type.class.python,
-                storage.type.string.python,
-                storage.modifier.global.python
+                support.function.builtin.python
             </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#3fb2ff</string>
+                <string>#66c2ff</string>
                 <!-- blue -->
             </dict>
         </dict>
