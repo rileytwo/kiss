@@ -424,23 +424,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Python Type</string>
-            <key>scope</key>
-            <string>
-                <!-- support.type.python -->
-                <!-- punctuation.definition.list.begin.python, -->
-                <!-- punctuation.definition.list.end.python, -->
-                <!-- punctuation.definition.dict.begin.python, -->
-                <!-- punctuation.definition.dict.end.python -->
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fcb4ae</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Python: Magic Support</string>
             <key>scope</key>
             <string>support.function.magic.python</string>
@@ -549,8 +532,6 @@
             <key>scope</key>
             <string>
                 support.punctuation.expression,
-                <!-- string.quoted.double.single-line.python, -->
-                <!-- string.quoted.single.single-line.python, -->
                 constant.other.symbol
             </string>
             <key>settings</key>
@@ -615,7 +596,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Python: (&Docstring) Comments</string>
+            <string>Python: (Docstring) Comments</string>
             <key>scope</key>
             <string>
                 punctuation.definition.comment.python,
@@ -856,7 +837,7 @@
         <!-- CSS -->
         <dict>
             <key>name</key>
-            <string>CSS Functions: Property Values (& !important)</string>
+            <string>CSS Functions: Property Values (important)</string>
             <key>scope</key>
             <string>
                 support.function.misc.css,
