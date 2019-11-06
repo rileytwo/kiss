@@ -1234,6 +1234,52 @@
                 <string>#FF8F86</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>String Math</string>
+            <key>scope</key>
+            <string>
+                string.other.math.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#FF8F86</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Escapes</string>
+            <key>scope</key>
+            <string>
+                constant.character.escape.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#ff96ed</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String Delimiters</string>
+            <key>scope</key>
+            <string>
+                punctuation.definition.string.begin.shell,
+                punctuation.definition.string.end.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#9691FF</string>
+            </dict>
+        </dict>
 
 
         <!-- POWERSHELL -->
