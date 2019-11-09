@@ -1236,10 +1236,11 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>String Math</string>
+            <string>Curly Brackets</string>
             <key>scope</key>
             <string>
-                string.other.math.shell
+                punctuation.section.bracket.curly.variable.begin.shell,
+                punctuation.section.bracket.curly.variable.end.shell
             </string>
             <key>settings</key>
             <dict>
@@ -1251,10 +1252,56 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Escapes</string>
+            <string>Meta Expression Assignment</string>
             <key>scope</key>
             <string>
-                constant.character.escape.shell
+                meta.expression.assignment.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#fcb4ae</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String Math</string>
+            <key>scope</key>
+            <string>
+                string.other.math.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#ffffff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Unquoted Strings</string>
+            <key>scope</key>
+            <string>
+                string.unquoted.argument.shell
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#FF8F86</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Constants</string>
+            <key>scope</key>
+            <string>
+                constant.character.escape.shell,
+                constant.numeric.integer.shell
             </string>
             <key>settings</key>
             <dict>
@@ -1266,11 +1313,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>String Delimiters</string>
+            <string>Delimiters</string>
             <key>scope</key>
             <string>
                 punctuation.definition.string.begin.shell,
-                punctuation.definition.string.end.shell
+                punctuation.definition.string.end.shell,
+                punctuation.definition.evaluation.parens.begin.shell,
+                punctuation.definition.evaluation.parens.end.shell
             </string>
             <key>settings</key>
             <dict>
