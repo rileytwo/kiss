@@ -210,7 +210,11 @@
             <key>name</key>
             <string>Function, Special Method, Block Level</string>
             <key>scope</key>
-            <string>entity.name.function, keyword.other.special-method, meta.block-level</string>
+            <string>
+                entity.name.function,
+                keyword.other.special-method,
+                meta.block-level
+            </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
