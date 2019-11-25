@@ -12,7 +12,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'Alice'
+let g:colors_name = 'kiss'
 
 hi!      ColorColumn ctermbg = NONE                guibg = NONE
 hi!     CursorColumn ctermbg = NONE                guibg = NONE

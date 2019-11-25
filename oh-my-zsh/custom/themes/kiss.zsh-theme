@@ -1,4 +1,4 @@
-## alice.zsh-theme
+## kiss.zsh-theme
 # vim: tabstop=2:shiftwidth=2
 
 ## colors

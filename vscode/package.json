@@ -1,6 +1,6 @@
 {
-    "name": "alice",
-    "displayName": "Alice",
+    "name": "kiss",
+    "displayName": "Kiss",
     "description": "A theme I made for VSCode because every theme, to me, looks like the next.",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Alice",
+                "label": "Kiss",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Alice-color-theme.json"
+                "path": "./themes/kiss-color-theme.json"
             }
         ]
     }

@@ -2,25 +2,49 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>Riley Roach</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>comment</key>
+	<string>A visually pleasing theme with bright colors and a dark background.</string>
 	<key>name</key>
-	<string>Alice</string>
+	<string>Kiss</string>
+	<key>semanticClass</key>
+	<string>theme.dark.kiss</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#161616</string>
+				<string>#1A1A1A</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
 				<key>caret</key>
-				<string>#f0f0f0</string>
+				<string>#9691FF</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#f0f0f0</string>
+				<string>#dcdfe4</string>
+				<key>gutter</key>
+				<string>#1F1F1F</string>
+				<key>gutterForeground</key>
+				<string>#919baa</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>#5c6370</string>
 				<key>lineHighlight</key>
-				<string>#3D3D3D55</string>
+				<string>#313640</string>
 				<key>selection</key>
-				<string>#515151</string>
+				<string>#474e5d</string>
+				<key>selectionBorder</key>
+				<string>#474e5d</string>
+				<key>tagsForeground</key>
+				<string></string>
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -42,9 +66,7 @@
 			<string>Comment</string>
 			<key>scope</key>
 			<string>
-                comment,
-                comment.line,
-                punctuation.definition.comment
+                comment
             </string>
 			<key>settings</key>
 			<dict>
@@ -1010,8 +1032,6 @@
             </string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#333333</string>
 				<key>foreground</key>
 				<string>#c7c7c7</string>
 			</dict>
@@ -1041,8 +1061,6 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#9691FF</string>
-				<key>background</key>
-				<string>#333333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1057,8 +1075,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#9691FF</string>
-				<key>background</key>
-				<string>#333333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1453,13 +1469,5 @@
 	</array>
 	<key>uuid</key>
 	<string>129D6E6D-29A5-44C1-BAB4-4916DFF7264C</string>
-	<key>colorSpaceName</key>
-	<string>sRGB</string>
-	<key>semanticClass</key>
-	<string>theme.dark.alice</string>
-	<key>author</key>
-	<string>Riley Roach</string>
-	<key>comment</key>
-	<string>A visually pleasing theme with bright colors and a dark background.</string>
 </dict>
 </plist>
