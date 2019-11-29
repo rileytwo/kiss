@@ -118,6 +118,9 @@ hi! link shDblBrace PreProc
 hi! link shCommandSub PreProc
 hi! link shOption Operator
 hi! link shSpecial Special
+hi! link shFunctionKey Keyword
+hi! link shSnglCase StorageClass
+hi! link shStatement Statement
 
 hi! link zshCommands Function
 hi! link zshConditional Keyword
