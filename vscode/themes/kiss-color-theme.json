@@ -73,8 +73,8 @@
 		"editor.selectionBackground"         : "#555",
 		"editor.selectionHighlightBackground": "#2b2b2b",
 
-		"editorSuggestWidget.foreground"         : "#b0b0b0",
-		"editorSuggestWidget.highlightForeground": "#ffffff",
+		"editorSuggestWidget.foreground"         : "#e6e6e6",
+		"editorSuggestWidget.highlightForeground": "#3fb2ff",
 
 		"editorWidget.background": "#222",
 		"editorWidget.border"    : "#222",
