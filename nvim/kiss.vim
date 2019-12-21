@@ -159,6 +159,21 @@ hi! link rConditional Operator
 
 hi! link pythonFunction Class
 
+hi! link markdownH1 Function
+hi! link markdownH2 Function
+hi! link markdownH3 Function
+hi! link markdownH4 Function
+hi! link markdownH5 Function
+hi! link markdownH6 Function
+hi! link markdownHeadingDelimiter Function
+hi! link markdownLinkText Keyword
+hi! link markdownUrl Type
+hi! link markdownLink Type
+hi! link markdownBold Keyword
+hi! link markdownRule Class
+hi! link markdownCode Keyword
+hi! link markdownCodeDelimiter Keyword
+
 hi! link cssClassName Structure
 hi! link cssClassNameDot Normal
 hi! link cssDefinition StorageClass
@@ -193,6 +208,7 @@ hi! link jsObjectKey Identifier
 hi! link jsSuper Statement
 hi! link jsTemplateBraces Special
 hi! link jsUndefined Constant
+
 hi! link typescriptBraces Normal
 hi! link typescriptEndColons Normal
 hi! link typescriptFuncKeyword Statement
@@ -230,11 +246,7 @@ hi! link deniteMatched Normal
 hi! link deniteMatchedChar Title
 hi! link graphqlName Normal
 hi! link graphqlOperator Normal
-hi! link markdownBold Special
-hi! link markdownCode String
-hi! link markdownCodeDelimiter String
-hi! link markdownHeadingDelimiter Comment
-hi! link markdownRule Comment
+
 hi! link ngxDirective Statement
 hi! link plug1 Normal
 hi! link plug2 Identifier
