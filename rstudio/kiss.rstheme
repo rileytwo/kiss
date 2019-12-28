@@ -22,7 +22,7 @@
   /* syntax highlights */
   --keyword: #9691ff;
   --type: #fcb4ae;
-  --string: #83fcbd;
+  --string: #65EB87;
   --constant: #ff96ed;
   --numeric-constant: #ff96ed;
   --variable: #9691ff;
@@ -310,23 +310,20 @@
 .terminal {
   background-color: inherit;
   color: #f8f8f2;
-  font-feature-settings: "liga" 0;
+  font-feature-settings: "liga"0;
   position: relative;
   user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
 }
 
-.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on)
-  .terminal-cursor {
+.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on) .terminal-cursor {
   background-color: #ccc;
   color: #1e1e1e;
 }
 
-.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on)
-  .terminal-cursor::before,
-.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on)
-  .terminal-cursor::before {
+.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on) .terminal-cursor::before,
+.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on) .terminal-cursor::before {
   content: "";
   position: absolute;
   background-color: #ccc;
@@ -2449,14 +2446,8 @@
   color: #f0f0f0;
 }
 
-.rstudio-themes-flat.rstudio-themes-dark-menus
-  .ace_editor.ace_autocomplete
-  .ace_marker-layer
-  .ace_active-line,
-.rstudio-themes-flat.rstudio-themes-dark-menus
-  .ace_editor.ace_autocomplete
-  .ace_marker-layer
-  .ace_line-hover {
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
   background: rgba(255, 255, 255, 0.15);
   border: none;
 }
