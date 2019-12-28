@@ -76,7 +76,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -92,7 +92,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -103,7 +103,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -127,7 +127,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -451,7 +451,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -536,13 +536,13 @@
                 support.other.match.end.regexp,
                 string.regexp.quoted.single.python,
                 string.regexp.quoted.double.python
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -551,11 +551,7 @@
                 <key>scope</key>
                 <string>
                 support.punctuation.expression,
-                
-                    <!-- string.quoted.double.single-line.python, -->
-                    <!-- string.quoted.single.single-line.python, -->
                 constant.other.symbol
-            
                 </string>
                 <key>settings</key>
                 <dict>
@@ -780,7 +776,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>
@@ -1426,7 +1422,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#65EB87</string>
+                    <string>#82FFA1</string>
                 </dict>
             </dict>
             <dict>

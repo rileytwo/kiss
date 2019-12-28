@@ -67,7 +67,7 @@ hi!   StatusLineTerm ctermbg = 234  ctermfg = 245  guibg = #171717 guifg = #8185
 hi!     StatusLineNC ctermbg = 237  ctermfg = 233  guibg = #333333 guifg = #0f1117 gui = reverse
 hi! StatusLineTermNC ctermbg = 237  ctermfg = 233  guibg = #333333 guifg = #0f1117 gui = reverse
 hi!     StorageClass                ctermfg = 37                   guifg = #FF8F86
-hi!           String                ctermfg = 209                  guifg = #65EB87
+hi!           String                ctermfg = 209                  guifg = #82FFA1
 hi!        Structure                ctermfg = 37                   guifg = #3fb2ff
 hi!          TabLine ctermbg = 245  ctermfg = 234  guibg = #818596 guifg = #17171b gui = NONE
 hi!      TabLineFill ctermbg = 234  ctermfg = 245  guibg = #171717 guifg = #818596 gui = reverse

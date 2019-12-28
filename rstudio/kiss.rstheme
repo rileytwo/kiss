@@ -22,7 +22,7 @@
   /* syntax highlights */
   --keyword: #9691ff;
   --type: #fcb4ae;
-  --string: #65EB87;
+  --string: #82FFA1;
   --constant: #ff96ed;
   --numeric-constant: #ff96ed;
   --variable: #9691ff;
