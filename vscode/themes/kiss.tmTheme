@@ -114,7 +114,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ff96ed</string>
+                    <string>#FF8BBC</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -203,7 +203,7 @@
                     <key>fontStyle</key>
                     <string>italic</string>
                     <key>foreground</key>
-                    <string>#cf756d</string>
+                    <string>#FCB4AE</string>
                 </dict>
             </dict>
             <dict>
@@ -342,11 +342,11 @@
                 <string>Python: Keywords</string>
                 <key>scope</key>
                 <string>
-                keyword.control.flow.python,
-                keyword.operator.logical.python,
-                keyword.operator.assignment.python,
-                punctuation.separator.colon.python
-            </string>
+                    keyword.control.flow.python,
+                    keyword.operator.logical.python,
+                    keyword.operator.assignment.python,
+                    punctuation.separator.colon.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -373,16 +373,16 @@
                 <string>Python: Functions/Declarations</string>
                 <key>scope</key>
                 <string>
-                storage.type.function.python,
-                storage.type.class.python,
-                storage.type.string.python,
-                storage.modifier.global.python,
-                punctuation.section.function.begin.python,
-                punctuation.section.function.end.python,
-                punctuation.section.function.begin.python,
-                meta.function-call.python,
-                meta.function-call.generic.python
-            </string>
+                    storage.type.function.python,
+                    storage.type.class.python,
+                    storage.type.string.python,
+                    storage.modifier.global.python,
+                    punctuation.section.function.begin.python,
+                    punctuation.section.function.end.python,
+                    punctuation.section.function.begin.python,
+                    meta.function-call.python,
+                    meta.function-call.generic.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -396,10 +396,10 @@
                 <string>Python: Storage</string>
                 <key>scope</key>
                 <string>
-                keyword.control.import.python,
-                keyword.control.import.from.python,
-                support.function.builtin.python
-            </string>
+                    keyword.control.import.python,
+                    keyword.control.import.from.python,
+                    support.function.builtin.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -414,8 +414,8 @@
                 <string>Python: F String Placeholders</string>
                 <key>scope</key>
                 <string>
-                constant.character.format.placeholder.other.python
-            </string>
+                    constant.character.format.placeholder.other.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -459,15 +459,15 @@
                 <string>Python: Constants</string>
                 <key>scope</key>
                 <string>
-                constant.numeric.dec.python,
-                constant.language.python
-            </string>
+                    constant.numeric.dec.python,
+                    constant.language.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#ff96ed</string>
+                    <string>#FF8BBC</string>
                 </dict>
             </dict>
             <dict>
@@ -475,9 +475,9 @@
                 <string>Python: Class</string>
                 <key>scope</key>
                 <string>
-                entity.name.type,
-                entity.name.type.class.python
-            </string>
+                    entity.name.type,
+                    entity.name.type.class.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -492,9 +492,9 @@
                 <string>Python: Function Definition</string>
                 <key>scope</key>
                 <string>
-                entity.name.function.python,
-                punctuation.section.function.begin.python
-            </string>
+                    entity.name.function.python,
+                    punctuation.section.function.begin.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -509,10 +509,10 @@
                 <string>Python: Self</string>
                 <key>scope</key>
                 <string>
-                variable.parameter.function.language.special.self.python,
-                variable.language.special.self.python,
-                entity.other.inherited-class.python
-            </string>
+                    variable.parameter.function.language.special.self.python,
+                    variable.language.special.self.python,
+                    entity.other.inherited-class.python
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -527,15 +527,15 @@
                 <string>Python: Special Characters</string>
                 <key>scope</key>
                 <string>
-                constant.character.escape.python,
-                constant.other.set.regexp,
-                punctuation.character.set.begin.regexp,
-                punctuation.character.set.end.regexp,
-                support.other.escape.special.regexp,
-                support.other.match.begin.regexp,
-                support.other.match.end.regexp,
-                string.regexp.quoted.single.python,
-                string.regexp.quoted.double.python
+                    constant.character.escape.python,
+                    constant.other.set.regexp,
+                    punctuation.character.set.begin.regexp,
+                    punctuation.character.set.end.regexp,
+                    support.other.escape.special.regexp,
+                    support.other.match.begin.regexp,
+                    support.other.match.end.regexp,
+                    string.regexp.quoted.single.python,
+                    string.regexp.quoted.double.python
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1294,7 +1294,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#ff96ed</string>
+                    <string>#FF8BBC</string>
                 </dict>
             </dict>
             <dict>
@@ -1302,11 +1302,11 @@
                 <string>Delimiters</string>
                 <key>scope</key>
                 <string>
-                punctuation.definition.string.begin.shell,
-                punctuation.definition.string.end.shell,
-                punctuation.definition.evaluation.parens.begin.shell,
-                punctuation.definition.evaluation.parens.end.shell
-            </string>
+                    punctuation.definition.string.begin.shell,
+                    punctuation.definition.string.end.shell,
+                    punctuation.definition.evaluation.parens.begin.shell,
+                    punctuation.definition.evaluation.parens.end.shell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1321,14 +1321,14 @@
                 <string>PowerShell Variable Punctuation ($)</string>
                 <key>scope</key>
                 <string>
-                punctuation.definition.variable.powershell
-            </string>
+                    punctuation.definition.variable.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#9691ff</string>
+                    <string>#FF8BBC</string>
                 </dict>
             </dict>
             <dict>
@@ -1336,9 +1336,9 @@
                 <string>PowerShell Hashtable Begin</string>
                 <key>scope</key>
                 <string>
-                keyword.other.hashtable.begin.powershell,
-                keyword.other.hashtable.end.powershell
-            </string>
+                    keyword.other.hashtable.begin.powershell,
+                    keyword.other.hashtable.end.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1352,9 +1352,9 @@
                 <string>Pwsh Subexpressions and Unary Operators</string>
                 <key>scope</key>
                 <string>
-                meta.group.complex.subexpression.powershell,
-                keyword.operator.unary.powershell
-            </string>
+                    meta.group.complex.subexpression.powershell,
+                    keyword.operator.unary.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1368,9 +1368,9 @@
                 <string>PowerShell Variable Parameter</string>
                 <key>scope</key>
                 <string>
-                variable.parameter.powershell,
-                meta.requires.powershell
-            </string>
+                    variable.parameter.powershell,
+                    meta.requires.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1400,8 +1400,23 @@
                 <string>PowerShell Functions</string>
                 <key>scope</key>
                 <string>
-                entity.name.function.powershell
-            </string>
+                    entity.name.function.powershell
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#fcb4ae</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PowerShell Functions</string>
+                <key>scope</key>
+                <string>
+                    variable.other.member.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1415,14 +1430,14 @@
                 <string>PowerShell Drive</string>
                 <key>scope</key>
                 <string>
-                support.variable.drive.powershell
-            </string>
+                    support.variable.drive.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#82FFA1</string>
+                    <string>#FF8BBC</string>
                 </dict>
             </dict>
             <dict>
@@ -1430,14 +1445,14 @@
                 <string>PowerShell ReadWrite Variable</string>
                 <key>scope</key>
                 <string>
-                variable.other.readwrite.powershell
-            </string>
+                    variable.other.readwrite.powershell
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#ff96ed</string>
+                    <string>#FF8BBC</string>
                 </dict>
             </dict>
             <!-- TWIG -->
