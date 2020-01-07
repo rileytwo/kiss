@@ -31,7 +31,7 @@
                 <string>
                 text.plain,
                 text.xml
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -46,7 +46,7 @@
                 comment,
                 comment.line,
                 punctuation.definition.comment
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -59,7 +59,7 @@
                 <key>scope</key>
                 <string>
                 punctuation
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -72,7 +72,7 @@
                 <key>scope</key>
                 <string>
                 punctuation.definition.variable
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -88,7 +88,7 @@
                 punctuation.definition.string,
                 punctuation.definition.string.begin,
                 punctuation.definition.string.end
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -214,7 +214,7 @@
                 entity.name.function,
                 keyword.other.special-method,
                 meta.block-level
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -360,7 +360,7 @@
                 <key>scope</key>
                 <string>
                 keyword.operator.quantifier.regexp
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -568,7 +568,7 @@
                 <string>
                 meta.function-call.arguments.python,
                 meta.fstring.python
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -585,7 +585,7 @@
                 variable.parameter.function.language.python,
                 variable.parameter.function-call.python,
                 variable.parameter
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -604,7 +604,7 @@
                 punctuation.definition.parameters.begin.python,
                 punctuation.definition.parameters.end.python,
                 punctuation.separator.arguments.python
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -621,7 +621,7 @@
                 punctuation.definition.comment.python,
                 comment.line.number-sign.python,
                 string.quoted.docstring.multi.python
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -639,7 +639,7 @@
                 <string>
                 keyword.control.r,
                 meta.function.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -653,7 +653,7 @@
                 <string>
                 entity.name.function.r,
                 keyword.other.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -670,7 +670,7 @@
                 meta.function-call.arguments.r,
                 meta.function-call.r,
                 punctuation.definition.parameters.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -684,7 +684,7 @@
                 <string>
                 variable.function.r,
                 support.function.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -699,7 +699,7 @@
                 <key>scope</key>
                 <string>
                 variable.parameter.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -713,7 +713,7 @@
                 <string>
                 variable.other.r,
                 source.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -727,7 +727,7 @@
                 <string>
                 string.quoted.single.r,
                 string.quoted.double.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -741,7 +741,7 @@
                 <string>
                 keyword.operator.assignment.r,
                 keyword.operator.comparison.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -754,7 +754,7 @@
                 <key>scope</key>
                 <string>
                 constant.character.escape.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -772,7 +772,7 @@
                 constant.numeric.integer.decimal.r,
                 constant.numeric.float.decimal.r,
                 constant.numeric.float.hexadecimal.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -786,7 +786,7 @@
                 <string>
                 punctuation.separator.parameters.r,
                 meta.function-call.arguments.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -800,7 +800,7 @@
                 <string>
                 punctuation.section.parens.begin.r,
                 punctuation.section.parens.end.r
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -813,7 +813,7 @@
                 <key>scope</key>
                 <string>
                 punctuation.section.brackets.single.begin.r, punctuation.section.brackets.single.end.r, meta.function-call
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -827,7 +827,7 @@
                 <key>scope</key>
                 <string>
                 variable.other.lua
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -840,7 +840,7 @@
                 <key>scope</key>
                 <string>
                 punctuation.accessor
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -857,7 +857,7 @@
                 support.constant.property-value.css,
                 support.constant.font-name.css,
                 keyword.other.important.css
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -871,7 +871,7 @@
                 <string>
                 keyword.control.at-rule.css,
                 punctuation.definition.keyword.css
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -884,7 +884,7 @@
                 <key>scope</key>
                 <string>
                 meta.at-rule.header.css
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -899,7 +899,7 @@
                 entity.other.attribute-name.class.css,
                 meta.selector.css,
                 meta.at-rule.body.css
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -912,7 +912,7 @@
                 <key>scope</key>
                 <string>
                 entity.other.attribute-name
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -927,7 +927,7 @@
                 <key>scope</key>
                 <string>
                 entity.other.attribute-name.pseudo-class.css
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -940,7 +940,7 @@
                 <key>scope</key>
                 <string>
                 entity.name.tag.css
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -966,7 +966,7 @@
                 <string>
                 markup.heading.markdown,
                 entity.name.section.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -981,7 +981,7 @@
                 <key>scope</key>
                 <string>
                 punctuation.definition.heading.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -996,7 +996,7 @@
                 <key>scope</key>
                 <string>
                 meta.separator.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1010,7 +1010,7 @@
                 <string>
                 punctuation.definition.italic.markdown,
                 markup.italic.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1026,7 +1026,7 @@
                 <string>
                 punctuation.definition.bold.markdown,
                 markup.bold.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1041,7 +1041,7 @@
                 <key>scope</key>
                 <string>
                 markup.fenced_code.block.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>background</key>
@@ -1057,7 +1057,7 @@
                 <string>
                 fenced_code.block.language,
                 source.r.embedded.rmarkdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1086,7 +1086,7 @@
                 <string>
                 punctuation.definition.raw.markdown,
                 markup.inline.raw.string.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1102,7 +1102,7 @@
                 <string>
                 punctuation.definition.quote.begin.markdown,
                 markup.quote.markdown
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1116,7 +1116,7 @@
                 <key>scope</key>
                 <string>
                 entity.name.function.js
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1131,7 +1131,7 @@
                 <key>scope</key>
                 <string>
                 keyword.operator.new.js
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1146,7 +1146,7 @@
                 <key>scope</key>
                 <string>
                 variable.other.property.js
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1162,7 +1162,7 @@
                 <string>
                 variable.other.readwrite.js,
                 variable.other.object.js
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1180,7 +1180,7 @@
                 punctuation.definition.tag.xml,
                 punctuation.definition.tag.end.xml,
                 punctuation.definition.tag.begin.xml
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1195,7 +1195,7 @@
                 <key>scope</key>
                 <string>
                 entity.name.tag.localname.xml
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1211,7 +1211,7 @@
                 <key>scope</key>
                 <string>
                 punctuation.definition.variable.shell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1227,7 +1227,7 @@
                 <string>
                 punctuation.section.bracket.curly.variable.begin.shell,
                 punctuation.section.bracket.curly.variable.end.shell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1242,7 +1242,7 @@
                 <key>scope</key>
                 <string>
                 meta.expression.assignment.shell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1257,7 +1257,7 @@
                 <key>scope</key>
                 <string>
                 string.other.math.shell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1272,7 +1272,7 @@
                 <key>scope</key>
                 <string>
                 string.unquoted.argument.shell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1288,7 +1288,7 @@
                 <string>
                 constant.character.escape.shell,
                 constant.numeric.integer.shell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1386,7 +1386,7 @@
                 <string>
                 support.function.powershell,
                 storage.type.powershell
-            </string>
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -1453,6 +1453,37 @@
                     <string></string>
                     <key>foreground</key>
                     <string>#FF8BBC</string>
+                </dict>
+            </dict>
+            <!-- SQL -->
+            <dict>
+                <key>name</key>
+                <string>SQL DB Name</string>
+                <key>scope</key>
+                <string>
+                    constant.other.database-name.sql
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#FF8F86</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SQL Table Name Name</string>
+                <key>scope</key>
+                <string>
+                    constant.other.table-name.sql
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#f0f0f0</string>
                 </dict>
             </dict>
             <!-- TWIG -->
