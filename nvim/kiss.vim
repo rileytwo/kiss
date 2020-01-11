@@ -121,6 +121,7 @@ hi! link shSpecial Special
 hi! link shFunctionKey Keyword
 hi! link shSnglCase StorageClass
 hi! link shStatement Statement
+hi! link shSet Type
 
 hi! link zshCommands Function
 hi! link zshConditional Keyword
@@ -134,6 +135,7 @@ hi! link zshOption Type
 hi! link zshDeref Type
 hi! link zshRepeat shLoop
 hi! link zshFunction shFunction
+hi! link zshTypes shSet
 
 hi! link vimContinue Comment
 hi! link vimFuncSID vimFunction
