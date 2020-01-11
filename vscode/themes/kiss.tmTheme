@@ -1455,6 +1455,22 @@
                     <string>#FF8BBC</string>
                 </dict>
             </dict>
+            <!-- LOGS -->
+            <dict>
+                <key>name</key>
+                <string>Log Constants</string>
+                <key>scope</key>
+                <string>
+                    log.constant
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#3fb2ff</string>
+                </dict>
+            </dict>
             <!-- TWIG -->
             <dict>
                 <key>name</key>
