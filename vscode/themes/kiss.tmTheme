@@ -201,7 +201,7 @@
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
-                    <string>italic</string>
+                    <string></string>
                     <key>foreground</key>
                     <string>#FCB4AE</string>
                 </dict>
@@ -333,7 +333,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#73c1f5</string>
+                    <string></string>
                 </dict>
             </dict>
             <!-- PYTHON -->
@@ -405,7 +405,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#66c2ff</string>
+                    <string>#3fb2ff</string>
                     <!-- blue -->
                 </dict>
             </dict>
@@ -451,7 +451,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#82FFA1</string>
+                    <string>#fcb4ae</string>
                 </dict>
             </dict>
             <dict>
@@ -467,7 +467,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#FF8BBC</string>
+                    <string>#FF7AB2</string>
                 </dict>
             </dict>
             <dict>
@@ -509,8 +509,8 @@
                 <string>Python: Self</string>
                 <key>scope</key>
                 <string>
-                    variable.parameter.function.language.special.self.python,
-                    variable.language.special.self.python,
+                    <!-- variable.parameter.function.language.special.self.python, -->
+                    <!-- variable.language.special.self.python, -->
                     entity.other.inherited-class.python
                 </string>
                 <key>settings</key>
@@ -558,7 +558,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#ff96ed</string>
+                    <string>#FF7AB2</string>
                 </dict>
             </dict>
             <dict>
