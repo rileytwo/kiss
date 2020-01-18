@@ -15,7 +15,7 @@
                     <key>caret</key>
                     <string>#f0f0f0</string>
                     <key>foreground</key>
-                    <string>#f0f0f0</string>
+                    <string>#E6E6E6</string>
                     <key>invisibles</key>
                     <string>#3B3A32</string>
                     <key>lineHighlight</key>
@@ -29,8 +29,8 @@
                 <string>Text</string>
                 <key>scope</key>
                 <string>
-                text.plain,
-                text.xml
+                    text.plain,
+                    text.xml
                 </string>
                 <key>settings</key>
                 <dict>
@@ -43,9 +43,9 @@
                 <string>Comment</string>
                 <key>scope</key>
                 <string>
-                comment,
-                comment.line,
-                punctuation.definition.comment
+                    comment,
+                    comment.line,
+                    punctuation.definition.comment
                 </string>
                 <key>settings</key>
                 <dict>
@@ -58,7 +58,7 @@
                 <string>Punctuation</string>
                 <key>scope</key>
                 <string>
-                punctuation
+                    punctuation
                 </string>
                 <key>settings</key>
                 <dict>
@@ -71,7 +71,7 @@
                 <string>Punctuation - Variables</string>
                 <key>scope</key>
                 <string>
-                punctuation.definition.variable
+                    punctuation.definition.variable
                 </string>
                 <key>settings</key>
                 <dict>
@@ -84,10 +84,10 @@
                 <string>String</string>
                 <key>scope</key>
                 <string>
-                string,
-                punctuation.definition.string,
-                punctuation.definition.string.begin,
-                punctuation.definition.string.end
+                    string,
+                    punctuation.definition.string,
+                    punctuation.definition.string.begin,
+                    punctuation.definition.string.end
                 </string>
                 <key>settings</key>
                 <dict>
@@ -103,7 +103,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#82FFA1</string>
+                    <string>#FF7AB2</string>
                 </dict>
             </dict>
             <dict>
@@ -114,7 +114,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FF8BBC</string>
+                    <string>#FF7AB2</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -203,7 +203,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#FCB4AE</string>
+                    <string>#FFCDA8</string>
                 </dict>
             </dict>
             <dict>
@@ -211,9 +211,9 @@
                 <string>Function, Special Method, Block Level</string>
                 <key>scope</key>
                 <string>
-                entity.name.function,
-                keyword.other.special-method,
-                meta.block-level
+                    entity.name.function,
+                    keyword.other.special-method,
+                    meta.block-level
                 </string>
                 <key>settings</key>
                 <dict>
@@ -272,7 +272,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#F9F1A5</string>
+                    <string>#FFCDA8</string>
                 </dict>
             </dict>
             <dict>
@@ -359,12 +359,12 @@
                 <string>Python: Regex</string>
                 <key>scope</key>
                 <string>
-                keyword.operator.quantifier.regexp
+                    keyword.operator.quantifier.regexp
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ff96ed</string>
+                    <string>#FF7AB2</string>
                     <!-- pink -->
                 </dict>
             </dict>
@@ -509,16 +509,14 @@
                 <string>Python: Self</string>
                 <key>scope</key>
                 <string>
-                    <!-- variable.parameter.function.language.special.self.python, -->
-                    <!-- variable.language.special.self.python, -->
-                    entity.other.inherited-class.python
+                    variable.language.special.self.python
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#cf756d</string>
+                    <string>#FFCDA8</string>
                     <!-- red -->
                 </dict>
             </dict>
@@ -542,7 +540,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#82FFA1</string>
+                    <string>#5CFEFF</string>
                 </dict>
             </dict>
             <dict>
@@ -550,8 +548,8 @@
                 <string>Python: Other</string>
                 <key>scope</key>
                 <string>
-                support.punctuation.expression,
-                constant.other.symbol
+                    support.punctuation.expression,
+                    constant.other.symbol
                 </string>
                 <key>settings</key>
                 <dict>
@@ -566,15 +564,15 @@
                 <string>Python: Meta Function Arguments</string>
                 <key>scope</key>
                 <string>
-                meta.function-call.arguments.python,
-                meta.fstring.python
+                    meta.function-call.arguments.python,
+                    meta.fstring.python
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#ececec</string>
+                    <string>#e6e6e6</string>
                 </dict>
             </dict>
             <dict>
