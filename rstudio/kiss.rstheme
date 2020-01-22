@@ -239,10 +239,6 @@
   color: #ffb86c;
 }
 
-.nocolor.ace_editor .ace_line span {
-  color: #8abeb7 !important;
-}
-
 .ace_marker-layer .ace_foreign_line {
   position: absolute;
   z-index: -1;
@@ -265,9 +261,13 @@
   background-color: #333333;
 }
 
-.nocolor.ace_editor .ace_line span {
-  color: #de935f !important;
-}
+/* .nocolor.ace_editor .ace_line span { */
+  /* color: #de935f !important; */
+/* } */
+
+/* .nocolor.ace_editor .ace_line span { */
+  /* color: #8abeb7 !important; */
+/* } */
 
 .ace_bracket {
   margin: 0 !important;
