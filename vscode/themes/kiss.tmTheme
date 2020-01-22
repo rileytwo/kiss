@@ -12,16 +12,10 @@
                 <dict>
                     <key>background</key>
                     <string>#161616</string>
-                    <key>caret</key>
-                    <string>#f0f0f0</string>
                     <key>foreground</key>
                     <string>#E6E6E6</string>
                     <key>invisibles</key>
                     <string>#3B3A32</string>
-                    <key>lineHighlight</key>
-                    <string>#3D3D3D55</string>
-                    <key>selection</key>
-                    <string>#515151</string>
                 </dict>
             </dict>
             <dict>
@@ -613,12 +607,12 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>Python: (&Docstring) Comments</string>
+                <string>Python: Docstrings and Comments</string>
                 <key>scope</key>
                 <string>
-                punctuation.definition.comment.python,
-                comment.line.number-sign.python,
-                string.quoted.docstring.multi.python
+                    punctuation.definition.comment.python,
+                    comment.line.number-sign.python,
+                    string.quoted.docstring.multi.python
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1651,7 +1645,7 @@
         <key>colorSpaceName</key>
         <string>sRGB</string>
         <key>semanticClass</key>
-        <string>theme.dark.alice</string>
+        <string>theme.dark.kiss</string>
         <key>author</key>
         <string>Riley Roach</string>
         <key>comment</key>
