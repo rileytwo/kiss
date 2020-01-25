@@ -24,14 +24,6 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$b%}) ${check}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$b%})%{$rb%} 署"
 
-## git status
-#ZSH_THEME_GIT_PROMPT_ADDED="::%{$green_bold%}++"
-#ZSH_THEME_GIT_PROMPT_DELETED="::%{$red_bold%}--"
-#ZSH_THEME_GIT_PROMPT_MODIFIED="::%{$yellow%}</>"
-#ZSH_THEME_GIT_PROMPT_RENAMED="::%{$green_bold%}***"
-#ZSH_THEME_GIT_PROMPT_UNMERGED="::%{$red_bold%}!="
-#ZSH_THEME_GIT_PROMPT_UNTRACKED="::%{$yellow%}?"
-
 ## prompt
 setopt PROMPT_SUBST
 precmd_prompt() {
