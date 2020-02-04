@@ -104,7 +104,7 @@
 		"editorWidget.background": "#222",
 		"editorWidget.border"    : "#555555",
 
-		"editorCursor.foreground"    : "#FF7E81",
+		"editorCursor.foreground"    : "#FFFFFF",
 		"editorWhitespace.foreground": "#222222",
 
 		"editorGroupHeader.tabsBackground"  : "#151515",
