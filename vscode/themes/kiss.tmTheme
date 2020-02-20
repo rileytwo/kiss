@@ -227,7 +227,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#73c1f5</string>
+                    <string>#ff6c62</string>
                 </dict>
             </dict>
             <dict>
@@ -240,7 +240,7 @@
                     <key>fontStyle</key>
                     <string></string>
                     <key>foreground</key>
-                    <string>#73c1f5</string>
+                    <string>#3fb2ff</string>
                 </dict>
             </dict>
             <dict>
@@ -956,6 +956,38 @@
             <!-- MARKDOWN -->
             <dict>
                 <key>name</key>
+                <string>Markdown Underlined Link</string>
+                <key>scope</key>
+                <string>
+                    markup.underline.link.markdown
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                    <key>foreground</key>
+                    <string>#3fb2ff</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Markdown String Link</string>
+                <key>scope</key>
+                <string>
+                    string.other.link.title.markdown,
+                    punctuation.definition.string.begin.markdown,
+                    punctuation.definition.string.end.markdown
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                    <key>foreground</key>
+                    <string>#FFCDA8</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>Markdown Header Text</string>
                 <key>scope</key>
                 <string>
@@ -965,9 +997,9 @@
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
-                    <string>bold</string>
+                    <string></string>
                     <key>foreground</key>
-                    <string>#3fb2ff</string>
+                    <string>#FF8F86</string>
                 </dict>
             </dict>
             <dict>
@@ -980,9 +1012,9 @@
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
-                    <string>bold</string>
+                    <string></string>
                     <key>foreground</key>
-                    <string>#3fb2ff</string>
+                    <string>#FF6C62</string>
                 </dict>
             </dict>
             <dict>
