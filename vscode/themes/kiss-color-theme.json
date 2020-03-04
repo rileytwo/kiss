@@ -1,5 +1,6 @@
 {
 	"tokenColors": "./kiss.tmTheme",
+	"name": "Kiss",
 	"colors"     : {
 
 		// UI Elements
@@ -74,7 +75,7 @@
 		"editor.foreground"             : "#ffffff",
 		"editor.lineHighlightBackground": "#222222",
 
-		"editor.selectionBackground"         : "#444444",
+		"editor.selectionBackground"         : "#3fb2ff30",
 		"editor.selectionHighlightBackground": "#2b2b2b",
 
 		"editor.findMatchBackground"         : "#555",
@@ -82,7 +83,7 @@
 		"editor.findMatchBorder"             : "#0081F2",
 		"editor.findMatchHighlightBorder"    : "#22A8FF10",
 
-		"editorOverviewRuler.findMatchForeground": "#666666",
+		"editorOverviewRuler.findMatchForeground": "#444444",
 
 		"editorOverviewRuler.border"                : "#222222",
 		"editorOverviewRuler.modifiedForeground"    : "#21BFC280",
@@ -119,6 +120,30 @@
 		"editorLineNumber.activeForeground": "#22A8FF",
 		"editorLineNumber.foreground"      : "#5c5c5c",
 
-	},
-	"name": "Kiss"
+
+		// Terminal
+		"terminal.background"         : "#151515",
+		"terminal.border"             : "#222",
+		"terminal.foreground"         : "#fff",
+		"terminal.ansiBlack"          : "#333",
+		"terminal.ansiBlue"           : "#3fb2ff",
+		"terminal.ansiBrightBlack"    : "#888",
+		"terminal.ansiBrightBlue"     : "#00C6FF",
+		"terminal.ansiBrightCyan"     : "#00E5FF",
+		"terminal.ansiBrightGreen"    : "#73FF96",
+		"terminal.ansiBrightMagenta"  : "#ACA8FF",
+		"terminal.ansiBrightRed"      : "#FF8F86",
+		"terminal.ansiBrightWhite"    : "#f6f6f6",
+		"terminal.ansiBrightYellow"   : "#F9F1A5",
+		"terminal.ansiCyan"           : "#2FFEFF",
+		"terminal.ansiGreen"          : "#00FF67",
+		"terminal.ansiMagenta"        : "#9F91FF",
+		"terminal.ansiRed"            : "#FF7E81",
+		"terminal.ansiWhite"          : "#e6e6e6",
+		"terminal.ansiYellow"         : "#FFF094",
+		"terminal.selectionBackground": "#444",
+		"terminalCursor.background"   : "#000",
+		"terminalCursor.foreground"   : "#fff"
+
+	}
 }
