@@ -10,7 +10,7 @@
 		"textLink.foreground"      : "#14AEF9",
 		"textLink.activeForeground": "#9691ff",
 
-		"input.background": "#0F0F0F",
+		"input.background": "#0a0a0a",
 		"input.border"    : "#000000",
 
 		"widget.shadow"   : "#000000",
@@ -23,7 +23,7 @@
 		"input.foreground"        : "#ffffff",
 		"inputOption.activeBorder": "#333333",
 
-		"activityBar.background"      : "#0F0F0F",
+		"activityBar.background"      : "#0a0a0a",
 		"activityBar.border"          : "#000000",
 		"activityBar.activeBackground": "#ffffff15",
 		"activityBar.activeBorder"    : "#00A1F9",
@@ -31,9 +31,9 @@
 		"titleBar.activeBackground"         : "#0F0F0F",
 		"peekViewResult.selectionForeground": "#e6e6e6",
 
-		"statusBar.background"         : "#0F0F0F",
-		"statusBar.noFolderBackground" : "#0F0F0F",
-		"statusBar.debuggingBackground": "#0F0F0F",
+		"statusBar.background"         : "#0a0a0a",
+		"statusBar.noFolderBackground" : "#0a0a0a",
+		"statusBar.debuggingBackground": "#0a0a0a",
 		"statusBar.border"             : "#000000",
 
 		"tab.inactiveBackground"  : "#151515",
@@ -59,10 +59,10 @@
 		"list.highlightForeground"        : "#e6e6e6",
 
 
-		"sideBar.background": "#0F0F0F",
+		"sideBar.background": "#0a0a0a",
 		"sideBar.border"    : "#000000",
 
-		"dropdown.background": "#0F0F0F",
+		"dropdown.background": "#0a0a0a",
 		"dropdown.border"    : "#2b2b2b",
 		"dropdown.foreground": "#e6e6e6",
 
