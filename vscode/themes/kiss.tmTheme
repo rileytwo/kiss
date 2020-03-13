@@ -10,8 +10,8 @@
             <dict>
                 <key>settings</key>
                 <dict>
-                    <key>background</key>
-                    <string>#161616</string>
+                    <!-- <key>background</key> -->
+                    <!-- <string>#161616</string> -->
                     <key>foreground</key>
                     <string>#E6E6E6</string>
                     <key>invisibles</key>
