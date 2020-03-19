@@ -28,7 +28,11 @@
 		"activityBar.activeBackground": "#ffffff15",
 		"activityBar.activeBorder"    : "#00A1F9",
 
-		"titleBar.activeBackground"         : "#0F0F0F",
+		"breadcrumb.background"      : "#111111",
+		"breadcrumbPicker.background": "#111111",
+
+		"titleBar.activeBackground"         : "#111111",
+		"titleBar.border"                   : "#000000",
 		"peekViewResult.selectionForeground": "#e6e6e6",
 
 		"statusBar.background"         : "#111111",
@@ -36,10 +40,11 @@
 		"statusBar.debuggingBackground": "#111111",
 		"statusBar.border"             : "#000000",
 
-		"tab.inactiveBackground"  : "#181818",
+		"tab.inactiveBackground"  : "#111111",
 		"tab.activeBackground"    : "#181818",
 		"tab.activeModifiedBorder": "#14AEF9",
 		"tab.activeBorder"        : "#14AEF9",
+		"tab.unfocusedActiveBorder": "#14AEF950",
 
 
 		"list.activeSelectionForeground"  : "#ffffff",
@@ -57,7 +62,6 @@
 		"list.hoverBackground"            : "#14AEF920",
 
 		"list.highlightForeground"        : "#e6e6e6",
-
 
 		"sideBar.background": "#111111",
 		"sideBar.border"    : "#000000",
@@ -115,14 +119,14 @@
 		"editorSuggestWidget.foreground"         : "#999999",
 		"editorSuggestWidget.highlightForeground": "#ececec",
 
-		"editorWidget.background": "#181818",
+		"editorWidget.background": "#111111",
 		"editorWidget.border"    : "#000000",
 
 		"editorCursor.foreground"    : "#FFFFFF",
 		"editorWhitespace.foreground": "#222222",
 
-		"editorGroupHeader.tabsBackground"  : "#181818",
-		"editorGroupHeader.noTabsBackground": "#181818",
+		"editorGroupHeader.tabsBackground"  : "#111111",
+		"editorGroupHeader.noTabsBackground": "#111111",
 
 		"editorIndentGuide.activeBackground": "#444444",
 		"editorIndentGuide.background"      : "#202020",
