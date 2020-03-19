@@ -10,7 +10,7 @@
 		"textLink.foreground"      : "#14AEF9",
 		"textLink.activeForeground": "#9691ff",
 
-		"input.background": "#0a0a0a",
+		"input.background": "#111111",
 		"input.border"    : "#000000",
 
 		"widget.shadow"   : "#000000",
@@ -23,7 +23,7 @@
 		"input.foreground"        : "#ffffff",
 		"inputOption.activeBorder": "#333333",
 
-		"activityBar.background"      : "#0a0a0a",
+		"activityBar.background"      : "#111111",
 		"activityBar.border"          : "#000000",
 		"activityBar.activeBackground": "#ffffff15",
 		"activityBar.activeBorder"    : "#00A1F9",
@@ -31,13 +31,13 @@
 		"titleBar.activeBackground"         : "#0F0F0F",
 		"peekViewResult.selectionForeground": "#e6e6e6",
 
-		"statusBar.background"         : "#0a0a0a",
-		"statusBar.noFolderBackground" : "#0a0a0a",
-		"statusBar.debuggingBackground": "#0a0a0a",
+		"statusBar.background"         : "#111111",
+		"statusBar.noFolderBackground" : "#111111",
+		"statusBar.debuggingBackground": "#111111",
 		"statusBar.border"             : "#000000",
 
-		"tab.inactiveBackground"  : "#151515",
-		"tab.activeBackground"    : "#151515",
+		"tab.inactiveBackground"  : "#181818",
+		"tab.activeBackground"    : "#181818",
 		"tab.activeModifiedBorder": "#14AEF9",
 		"tab.activeBorder"        : "#14AEF9",
 
@@ -59,10 +59,10 @@
 		"list.highlightForeground"        : "#e6e6e6",
 
 
-		"sideBar.background": "#0a0a0a",
+		"sideBar.background": "#111111",
 		"sideBar.border"    : "#000000",
 
-		"dropdown.background": "#0a0a0a",
+		"dropdown.background": "#111111",
 		"dropdown.border"    : "#2b2b2b",
 		"dropdown.foreground": "#e6e6e6",
 
@@ -81,7 +81,7 @@
 
 
 		// Editor
-		"editor.background"             : "#151515",
+		"editor.background"             : "#181818",
 		"editor.foreground"             : "#ffffff",
 		"editor.lineHighlightBackground": "#222222",
 
@@ -115,14 +115,14 @@
 		"editorSuggestWidget.foreground"         : "#999999",
 		"editorSuggestWidget.highlightForeground": "#ececec",
 
-		"editorWidget.background": "#151515",
+		"editorWidget.background": "#181818",
 		"editorWidget.border"    : "#000000",
 
 		"editorCursor.foreground"    : "#FFFFFF",
 		"editorWhitespace.foreground": "#222222",
 
-		"editorGroupHeader.tabsBackground"  : "#151515",
-		"editorGroupHeader.noTabsBackground": "#151515",
+		"editorGroupHeader.tabsBackground"  : "#181818",
+		"editorGroupHeader.noTabsBackground": "#181818",
 
 		"editorIndentGuide.activeBackground": "#444444",
 		"editorIndentGuide.background"      : "#202020",
@@ -135,7 +135,7 @@
 
 
 		// Terminal
-		"terminal.background"         : "#151515",
+		"terminal.background"         : "#181818",
 		"terminal.border"             : "#222222",
 		"terminal.foreground"         : "#FFFFFF",
 		"terminal.ansiBlack"          : "#333333",
