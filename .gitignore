@@ -1,6 +1,5 @@
-.DS_Store
-.pyc
-.idea/
+*.DS_Store
+*.pyc
+*.idea/
+*.vsix
 tests/
-
-
