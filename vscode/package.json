@@ -1,10 +1,10 @@
 {
     "name": "kiss",
     "displayName": "Kiss",
-    "description": "A theme I made for VSCode because every theme, to me, looks like the next.",
+    "description": "Keep It Simple Stupid.",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.30.0"
+        "vscode": "^1.40.0"
     },
     "categories": [
         "Themes"
