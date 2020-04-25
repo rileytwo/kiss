@@ -308,9 +308,9 @@
 }
 
 .terminal {
-  background-color: inherit;
-  color: #f8f8f2;
-  font-feature-settings: "liga"0;
+  background-color: var(--editor-background-color);
+  color: var(--editor-foreground);
+  font-feature-settings: "liga" 1;
   position: relative;
   user-select: none;
   -ms-user-select: none;
