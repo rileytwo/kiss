@@ -1,10 +1,23 @@
 {
     "name": "kiss",
     "displayName": "Kiss",
+    "version": "0.1.0",
+    "publisher": "rileytwo",
     "description": "Keep It Simple Stupid.",
-    "version": "0.0.1",
+    "author": {
+        "name": "rileyroach"
+    },
     "engines": {
         "vscode": "^1.40.0"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/rileytwo/kiss/issues"
+    },
+    "homepage": "https://github.com/rileytwo/kiss/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rileytwo/kiss.git"
     },
     "categories": [
         "Themes"
