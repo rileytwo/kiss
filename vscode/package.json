@@ -3,9 +3,9 @@
     "displayName": "Kiss Theme",
     "version": "0.3.0",
     "publisher": "rileytwo",
-    "description": "Keep It Simple Stupid. A pleasant theme.",
+    "description": "Keep It Stupid Simple. A dark and pleasant theme.",
     "author": {
-        "name": "rileyroach"
+        "name": "Riley Roach"
     },
     "engines": {
         "vscode": "^1.20.0"
@@ -21,6 +21,12 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "kiss",
+        "simple"
     ],
     "contributes": {
         "themes": [
