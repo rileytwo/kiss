@@ -1,6 +1,6 @@
-# Kiss: Keep It Simple, Stupid
+# Kiss: Keep It Stupid Simple
 
-A simple theme for VSCode, iTerm2, Neovim, RStudio, and Oh-My-Zsh!<sup id="omz-note">[1](#Oh-My-Zsh)</sup>.
+A simple theme for `VSCode`, `iTerm2`, `Neovim`, `RStudio`, and `Oh-My-Zsh!`<sup id="omz-note">[1](#Oh-My-Zsh)</sup>.
 
 ## VSCode
 
@@ -22,7 +22,7 @@ A simple theme for VSCode, iTerm2, Neovim, RStudio, and Oh-My-Zsh!<sup id="omz-n
 
 ![RStudio](media/RStudio-2.png)
 
-Wondering why RStudio looks different? Check out my other project, [daRkStudio](https://github.com/rileytwo/daRkStudio)
+Wondering why `RStudio` looks different? Check out my other project, [daRkStudio](https://github.com/rileytwo/daRkStudio)
 
 ## Oh-My-Zsh! Prompt
 
