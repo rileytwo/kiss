@@ -5,6 +5,6 @@
 		}
 	],
     "settings": {
-        "editor.colorDecorators": false
+		"editor.colorDecorators": false
     }
 }
