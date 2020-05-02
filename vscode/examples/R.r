@@ -2,10 +2,7 @@ library(keras)
 library(caret)
 
 use_condaenv("r-tensorflow")
-
 source(here::here("kerasPrep.R"))
-
-
 
 # model -----------------------------------
 model <- keras_model_sequential()
