@@ -7,6 +7,9 @@
 /* rs-theme-is-dark: TRUE */
 :root {
   /* editor */
+  --ui-background: #2c2c2c;
+  --input-background: #141414;
+  --borders: #0a0a0a;
   --editor-background-color: #141414;
   --editor-background: var(--editor-background-color);
   --editor-foreground: #f6f6f6;
@@ -15,7 +18,7 @@
   --cursor: #0bcaff;
 
   --separator: #333333;
-  --toolbar: #222222;
+  --active-tabs: #3b3b3b;
   --tab: #282828;
   --selected-tab: var(--editor-background-color);
 
@@ -305,6 +308,68 @@
 
 .editor_dark.ace_editor_theme a {
   color: #fff !important;
+}
+
+/* WIP BEWARE */
+
+.search {
+  background: var(--input-background) !important;
+}
+.rstheme_tabLayoutCenter, .dataGridHeader, gwt-TabLayoutPanelTabs {
+  background-color: var(--ui-background) !important;
+  border-color: var(--borders) !important;
+}
+
+.gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter, .rstheme_secondaryToolbar, .rstheme_toolbarWrapper {
+  background-color: var(--active-tabs) !important;
+  border-color: var(--borders) !important;
+}
+/* WIP END */
+
+.rstudio-themes-flat.editor_dark.ace_editor_theme a {
+  color: #fff !important;
+}
+
+.ace_layer {
+  z-index: 3;
+}
+
+.ace_layer.ace_print-margin-layer {
+  z-index: 2;
+}
+
+.ace_layer.ace_marker-layer {
+  z-index: 1;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
+  background: #333333;
+  border: solid 1px #888888 !important;
+  color: #f0f0f0;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+
+/* JS Changing the data viewing window colors */
+
+/* JS This is the color of the data cells */
+.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info,
+.rstudio-themes-flat.rstudio-themes-dark-grey th,
+.rstudio-themes-flat.rstudio-themes-dark-grey td.first-child,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th {
+  background-color: #2b2b2b;
+}
+
+/* JS This is the color of the border of the data cells */
+.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead td,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td {
+  border-color: black;
 }
 
 .terminal {
@@ -2422,50 +2487,4 @@
 
 .xtermBgColor255 {
   background-color: #eeeeee;
-}
-
-.rstudio-themes-flat.editor_dark.ace_editor_theme a {
-  color: #fff !important;
-}
-
-.ace_layer {
-  z-index: 3;
-}
-
-.ace_layer.ace_print-margin-layer {
-  z-index: 2;
-}
-
-.ace_layer.ace_marker-layer {
-  z-index: 1;
-}
-
-.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
-  background: #333333;
-  border: solid 1px #888888 !important;
-  color: #f0f0f0;
-}
-
-.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
-.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
-  background: rgba(255, 255, 255, 0.15);
-  border: none;
-}
-
-/* JS Changing the data viewing window colors */
-
-/* JS This is the color of the data cells */
-.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info,
-.rstudio-themes-flat.rstudio-themes-dark-grey th,
-.rstudio-themes-flat.rstudio-themes-dark-grey td.first-child,
-.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th {
-  background-color: #2b2b2b;
-}
-
-/* JS This is the color of the border of the data cells */
-.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info,
-.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th,
-.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead td,
-.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td {
-  border-color: black;
 }
