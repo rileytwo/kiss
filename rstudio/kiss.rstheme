@@ -313,7 +313,7 @@
 /* WIP BEWARE */
 .rstudio-themes-dark :-webkit-any(.rstheme_toolbarWrapper, #rstudio_find_replace_bar) .search, .rstudio-themes-flat .themedPopupPanel .search
 .rstheme_tabLayoutCenter, gwt-TabLayoutPanelTabs {
-  background-color: var(--ui-background) !important;
+  background-color: var(--input-background) !important;
   border-color: var(--borders) !important;
 }
 
