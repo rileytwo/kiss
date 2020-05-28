@@ -311,23 +311,23 @@
 }
 
 /* WIP BEWARE */
-.rstudio-themes-dark :-webkit-any(.rstheme_toolbarWrapper, #rstudio_find_replace_bar) .search, .rstudio-themes-flat .themedPopupPanel .search
-.rstheme_tabLayoutCenter, gwt-TabLayoutPanelTabs {
-  background-color: var(--input-background) !important;
-  border-color: var(--borders) !important;
-}
+/* .rstudio-themes-dark :-webkit-any(.rstheme_toolbarWrapper, #rstudio_find_replace_bar) .search, .rstudio-themes-flat .themedPopupPanel .search */
+/* .rstheme_tabLayoutCenter, gwt-TabLayoutPanelTabs { */
+  /* background-color: var(--input-background) !important; */
+  /* border-color: var(--borders) !important; */
+/* } */
 
 /* .dataGridHeader { */
   /* background-color: var(--ui-background); */
   /* border-color: var(--borders); */
 /* } */
 
-.gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter,
-.rstheme_secondaryToolbar,
-.rstheme_toolbarWrapper {
-  background-color: var(--active-tabs) !important;
-  border-color: var(--borders) !important;
-}
+/* .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter, */
+/* .rstheme_secondaryToolbar, */
+/* .rstheme_toolbarWrapper { */
+  /* background-color: var(--active-tabs) !important; */
+  /* border-color: var(--borders) !important; */
+/* } */
 /* WIP END */
 
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
