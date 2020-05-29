@@ -93,9 +93,9 @@
 		"editor.selectionHighlightBackground": "#2b2b2b",
 
 		"editor.findMatchBackground"         : "#2A2A2A",
-		"editor.findMatchBorder"             : "#3482D1",
+		"editor.findMatchBorder"             : "#00FF67",
 		"editor.findMatchHighlightBackground": "#2A2A2A80",
-		"editor.findMatchHighlightBorder"    : "#3482D150",
+		"editor.findMatchHighlightBorder"    : "#00FF6750",
 
 		"editor.wordHighlightBackground": "#1A1A1A",
 		"editor.wordHighlightBorder"    : "#2C2C2C",
