@@ -16,20 +16,23 @@
 		"widget.shadow"   : "#000000",
 
 		"scrollbar.shadow"                : "#000000",
-		"scrollbarSlider.background"      : "#28282895",
 		"scrollbarSlider.activeBackground": "#0366d695",
+		"scrollbarSlider.background"      : "#28282895",
 		"scrollbarSlider.hoverBackground" : "#6a6a6a95",
 
 		"input.foreground"        : "#ffffff",
 		"inputOption.activeBorder": "#333333",
 
-		"activityBar.background"      : "#111111",
-		"activityBar.border"          : "#000000",
 		"activityBar.activeBackground": "#ffffff15",
 		"activityBar.activeBorder"    : "#0366d6",
+		"activityBar.background"      : "#111111",
+		"activityBar.border"          : "#000000",
 
-		"breadcrumb.background"      : "#111111",
-		"breadcrumbPicker.background": "#111111",
+		"breadcrumb.activeSelectionForeground": "#FFFFFF",
+		"breadcrumb.background"               : "#181818",
+		"breadcrumb.foreground"               : "#DDDDDD",
+		"breadcrumb.focusForeground"          : "#FFFFFF",
+		"breadcrumbPicker.background"         : "#444444",
 
 		"titleBar.activeBackground"         : "#111111",
 		"titleBar.border"                   : "#000000",
@@ -48,15 +51,15 @@
 
 
 		"list.activeSelectionForeground"  : "#ffffff",
-		"list.activeSelectionBackground"  : "#0366d690",
+		"list.activeSelectionBackground"  : "#0366d6",
 
 		"list.inactiveSelectionForeground": "#eeeeee",
-		"list.inactiveSelectionBackground": "#0366d660",
+		"list.inactiveSelectionBackground": "#005cc5",
 
 		"list.focusForeground"            : "#ffffff",
-		"list.focusBackground"            : "#0366d680",
+		"list.focusBackground"            : "#2188ff",
 
-		"list.inactiveFocusBackground"    : "#0366d650",
+		"list.inactiveFocusBackground"    : "#005cc5",
 
 		"list.hoverForeground"            : "#ffffff",
 		"list.hoverBackground"            : "#0366d620",
@@ -78,7 +81,7 @@
 		"extensionButton.prominentHoverBackground": "#3f3e6d",
 		"extensionButton.prominentForeground"     : "#f0f0f0",
 
-		"progressBar.background": "#0366d6",
+		"progressBar.background": "#2188ff",
 
 		"quickInput.background": "#0F0F0F",
 		"quickInput.foreground": "#C6C6C6",
