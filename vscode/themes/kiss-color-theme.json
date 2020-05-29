@@ -16,9 +16,9 @@
 		"widget.shadow"   : "#000000",
 
 		"scrollbar.shadow"                : "#000000",
-		"scrollbarSlider.background"      : "#28282880",
-		"scrollbarSlider.activeBackground": "#3482D1",
-		"scrollbarSlider.hoverBackground" : "#6a6a6a",
+		"scrollbarSlider.background"      : "#28282895",
+		"scrollbarSlider.activeBackground": "#3482D195",
+		"scrollbarSlider.hoverBackground" : "#6a6a6a95",
 
 		"input.foreground"        : "#ffffff",
 		"inputOption.activeBorder": "#333333",
@@ -93,9 +93,9 @@
 		"editor.selectionHighlightBackground": "#2b2b2b",
 
 		"editor.findMatchBackground"         : "#2A2A2A",
-		"editor.findMatchBorder"             : "#14AEF9",
+		"editor.findMatchBorder"             : "#3482D1",
 		"editor.findMatchHighlightBackground": "#2A2A2A80",
-		"editor.findMatchHighlightBorder"    : "#14AEF950",
+		"editor.findMatchHighlightBorder"    : "#3482D150",
 
 		"editor.wordHighlightBackground": "#1A1A1A",
 		"editor.wordHighlightBorder"    : "#2C2C2C",
@@ -110,7 +110,7 @@
 		"editorOverviewRuler.warningForeground"     : "#27D79780",
 		"editorOverviewRuler.bracketMatchForeground": "#D5D8DA80",
 
-		"editorGutter.modifiedBackground": "#14AEF930",
+		"editorGutter.modifiedBackground": "#3482D130",
 		"editorGutter.addedBackground": "#09F7A080",
 		"editorGutter.deletedBackground": "#F43E5CB3",
 
@@ -134,7 +134,7 @@
 		"editorBracketMatch.border"    : "#000000",
 		"editorBracketMatch.background": "#505050",
 
-		"editorLineNumber.activeForeground": "#14AEF9",
+		"editorLineNumber.activeForeground": "#3482D1",
 		"editorLineNumber.foreground"      : "#5c5c5c",
 
 
