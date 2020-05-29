@@ -85,9 +85,9 @@
 
 
 		// Editor
-		"editor.background"             : "#181818",
+		"editor.background"             : "#202020",
 		"editor.foreground"             : "#ffffff",
-		"editor.lineHighlightBackground": "#222222",
+		"editor.lineHighlightBackground": "#252525",
 
 		"editor.selectionBackground"         : "#3fb2ff30",
 		"editor.selectionHighlightBackground": "#2b2b2b",
