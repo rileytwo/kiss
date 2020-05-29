@@ -7,8 +7,8 @@
 		"focusBorder": "#0366d690",
 		"foreground" : "#BBBBBB",
 
-		"textLink.foreground"      : "#0366d6",
 		"textLink.activeForeground": "#9691ff",
+		"textLink.foreground"      : "#0366d6",
 
 		"input.background": "#111111",
 		"input.border"    : "#000000",
@@ -43,10 +43,10 @@
 		"statusBar.debuggingBackground": "#111111",
 		"statusBar.border"             : "#000000",
 
-		"tab.inactiveBackground"  : "#111111",
-		"tab.activeBackground"    : "#181818",
-		"tab.activeModifiedBorder": "#0366d6",
-		"tab.activeBorder"        : "#0366d6",
+		"tab.inactiveBackground"   : "#111111",
+		"tab.activeBackground"     : "#181818",
+		"tab.activeModifiedBorder" : "#0366d6",
+		"tab.activeBorderTop"      : "#0366d6",
 		"tab.unfocusedActiveBorder": "#0366d650",
 
 
@@ -56,15 +56,15 @@
 		"list.inactiveSelectionForeground": "#eeeeee",
 		"list.inactiveSelectionBackground": "#005cc5",
 
-		"list.focusForeground"            : "#ffffff",
-		"list.focusBackground"            : "#2188ff",
+		"list.focusForeground": "#ffffff",
+		"list.focusBackground": "#2188ff",
 
-		"list.inactiveFocusBackground"    : "#005cc5",
+		"list.inactiveFocusBackground": "#005cc5",
 
-		"list.hoverForeground"            : "#ffffff",
-		"list.hoverBackground"            : "#0366d620",
+		"list.hoverForeground": "#ffffff",
+		"list.hoverBackground": "#0366d620",
 
-		"list.highlightForeground"        : "#e6e6e6",
+		"list.highlightForeground": "#e6e6e6",
 
 		"sideBar.background": "#111111",
 		"sideBar.border"    : "#000000",
@@ -88,17 +88,17 @@
 
 
 		// Editor
-		"editor.background"             : "#1D1D1D",
+		"editor.background"             : "#1A1A1A",
 		"editor.foreground"             : "#ffffff",
 		"editor.lineHighlightBackground": "#252525",
 
 		"editor.selectionBackground"         : "#0366d630",
 		"editor.selectionHighlightBackground": "#2b2b2b",
 
-		"editor.findMatchBackground"         : "#79b8ff",
-		"editor.findMatchBorder"             : "#79b8ff",
-		"editor.findMatchHighlightBackground": "#79b8ff60",
-		"editor.findMatchHighlightBorder"    : "#79b8ff60",
+		"editor.findMatchBackground"         : "#2188ff70",
+		"editor.findMatchBorder"             : "#2188ff70",
+		"editor.findMatchHighlightBackground": "#2188ff50",
+		"editor.findMatchHighlightBorder"    : "#2188ff30",
 
 		"editor.wordHighlightBackground": "#1A1A1A",
 		"editor.wordHighlightBorder"    : "#2C2C2C",
@@ -121,6 +121,8 @@
 
 		"editorSuggestWidget.foreground"         : "#999999",
 		"editorSuggestWidget.highlightForeground": "#ececec",
+		"editorSuggestWidget.selectedBackground" : "#044289",
+		"editorSuggestWidget.background"         : "#111111",
 
 		"editorWidget.background": "#111111",
 		"editorWidget.border"    : "#000000",
@@ -142,7 +144,7 @@
 
 
 		// Terminal
-		"terminal.background"         : "#181818",
+		"terminal.background"         : "#1A1A1A",
 		"terminal.border"             : "#222222",
 		"terminal.foreground"         : "#FFFFFF",
 		"terminal.ansiBlack"          : "#333333",
