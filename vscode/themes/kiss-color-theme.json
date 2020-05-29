@@ -16,9 +16,9 @@
 		"widget.shadow"   : "#000000",
 
 		"scrollbar.shadow"                : "#000000",
-		"scrollbarSlider.background"      : "#33333380",
-		"scrollbarSlider.activeBackground": "#14AEF930",
-		"scrollbarSlider.hoverBackground" : "#14AEF920",
+		"scrollbarSlider.background"      : "#28282880",
+		"scrollbarSlider.activeBackground": "#3482D1",
+		"scrollbarSlider.hoverBackground" : "#6a6a6a",
 
 		"input.foreground"        : "#ffffff",
 		"inputOption.activeBorder": "#333333",
@@ -26,7 +26,7 @@
 		"activityBar.background"      : "#111111",
 		"activityBar.border"          : "#000000",
 		"activityBar.activeBackground": "#ffffff15",
-		"activityBar.activeBorder"    : "#00A1F9",
+		"activityBar.activeBorder"    : "#3482D1",
 
 		"breadcrumb.background"      : "#111111",
 		"breadcrumbPicker.background": "#111111",
@@ -42,24 +42,24 @@
 
 		"tab.inactiveBackground"  : "#111111",
 		"tab.activeBackground"    : "#181818",
-		"tab.activeModifiedBorder": "#14AEF9",
-		"tab.activeBorder"        : "#14AEF9",
-		"tab.unfocusedActiveBorder": "#14AEF950",
+		"tab.activeModifiedBorder": "#3482D1",
+		"tab.activeBorder"        : "#3482D1",
+		"tab.unfocusedActiveBorder": "#3482D150",
 
 
 		"list.activeSelectionForeground"  : "#ffffff",
-		"list.activeSelectionBackground"  : "#14AEF940",
+		"list.activeSelectionBackground"  : "#3482D140",
 
 		"list.inactiveSelectionForeground": "#eeeeee",
-		"list.inactiveSelectionBackground": "#14AEF930",
+		"list.inactiveSelectionBackground": "#3482D130",
 
 		"list.focusForeground"            : "#ffffff",
-		"list.focusBackground"            : "#14AEF930",
+		"list.focusBackground"            : "#3482D130",
 
-		"list.inactiveFocusBackground"    : "#14AEF920",
+		"list.inactiveFocusBackground"    : "#3482D120",
 
 		"list.hoverForeground"            : "#ffffff",
-		"list.hoverBackground"            : "#14AEF920",
+		"list.hoverBackground"            : "#3482D120",
 
 		"list.highlightForeground"        : "#e6e6e6",
 
@@ -70,15 +70,15 @@
 		"dropdown.border"    : "#2b2b2b",
 		"dropdown.foreground": "#e6e6e6",
 
-		"button.background"     : "#14AEF9",
+		"button.background"     : "#3482D1",
 		"button.foreground"     : "#FFFFFF",
 		"button.hoverBackground": "#3f3e6d",
 
-		"extensionButton.prominentBackground"     : "#14AEF9",
+		"extensionButton.prominentBackground"     : "#3482D1",
 		"extensionButton.prominentHoverBackground": "#3f3e6d",
 		"extensionButton.prominentForeground"     : "#f0f0f0",
 
-		"progressBar.background": "#14AEF9",
+		"progressBar.background": "#3482D1",
 
 		"quickInput.background": "#0F0F0F",
 		"quickInput.foreground": "#C6C6C6",
