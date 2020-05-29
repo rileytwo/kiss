@@ -51,12 +51,12 @@
 		"list.activeSelectionBackground"  : "#0366d690",
 
 		"list.inactiveSelectionForeground": "#eeeeee",
-		"list.inactiveSelectionBackground": "#0366d630",
+		"list.inactiveSelectionBackground": "#0366d660",
 
 		"list.focusForeground"            : "#ffffff",
-		"list.focusBackground"            : "#0366d630",
+		"list.focusBackground"            : "#0366d680",
 
-		"list.inactiveFocusBackground"    : "#0366d620",
+		"list.inactiveFocusBackground"    : "#0366d650",
 
 		"list.hoverForeground"            : "#ffffff",
 		"list.hoverBackground"            : "#0366d620",
@@ -85,17 +85,17 @@
 
 
 		// Editor
-		"editor.background"             : "#202020",
+		"editor.background"             : "#1D1D1D",
 		"editor.foreground"             : "#ffffff",
 		"editor.lineHighlightBackground": "#252525",
 
 		"editor.selectionBackground"         : "#0366d630",
 		"editor.selectionHighlightBackground": "#2b2b2b",
 
-		"editor.findMatchBackground"         : "#2A2A2A",
-		"editor.findMatchBorder"             : "#00FF67",
-		"editor.findMatchHighlightBackground": "#2A2A2A80",
-		"editor.findMatchHighlightBorder"    : "#00FF6750",
+		"editor.findMatchBackground"         : "#79b8ff",
+		"editor.findMatchBorder"             : "#79b8ff",
+		"editor.findMatchHighlightBackground": "#79b8ff60",
+		"editor.findMatchHighlightBorder"    : "#79b8ff60",
 
 		"editor.wordHighlightBackground": "#1A1A1A",
 		"editor.wordHighlightBorder"    : "#2C2C2C",
@@ -134,7 +134,7 @@
 		"editorBracketMatch.border"    : "#000000",
 		"editorBracketMatch.background": "#505050",
 
-		"editorLineNumber.activeForeground": "#0366d6",
+		"editorLineNumber.activeForeground": "#2188ff",
 		"editorLineNumber.foreground"      : "#5c5c5c",
 
 
