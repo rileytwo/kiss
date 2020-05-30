@@ -33,7 +33,7 @@
 
 		"input.background": "#181818",
 		"input.border"    : "#000000",
-		"input.foreground"        : "#ffffff",
+		"input.foreground": "#ffffff",
 
 		"inputOption.activeBorder": "#333333",
 
@@ -81,6 +81,8 @@
 		"sideBarSectionHeader.background": "#222222",
 
 		"statusBar.background"         : "#111111",
+		"statusBar.debuggingBorder": "#f97583",
+
 		"statusBar.noFolderBackground" : "#111111",
 		"statusBar.debuggingBackground": "#111111",
 		"statusBar.border"             : "#000000",
@@ -105,12 +107,13 @@
 		"editor.foreground"             : "#ffffff",
 		"editor.lineHighlightBackground": "#252525",
 
-		"editor.selectionBackground"         : "#2188ff40",
-		"editor.selectionHighlightBackground": "#2188ff20",
+		"editor.selectionBackground"         : "#c8e1ff30",
+		"editor.selectionHighlightBackground": "#fb853225",
 
-		"editor.findMatchBackground"         : "#c8e1ff30",
-		"editor.findMatchBorder": "#c8e1ff95",
+		"editor.findMatchBackground"         : "#c8e1ff20",
+		"editor.findMatchBorder": "#2188ff",
 
+		"editor.findMatchHighlightBorder"    : "#fb853235",
 		"editor.findMatchHighlightBackground": "#fb853235",
 
 		"editor.wordHighlightBackground": "#1A1A1A",
@@ -137,7 +140,7 @@
 		"editorSuggestWidget.selectedBackground" : "#044289",
 		"editorSuggestWidget.background"         : "#222222",
 
-		"editorWidget.background": "#111111",
+		"editorWidget.background": "#181818",
 		"editorWidget.border"    : "#000000",
 
 		"editorCursor.foreground"    : "#FFFFFF",
