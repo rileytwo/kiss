@@ -4,31 +4,31 @@ A simple theme for `VSCode`, `iTerm2`, `Neovim`, `RStudio`, and `Oh-My-Zsh!`<sup
 
 ## VSCode
 
-![VSCode](media/VSCode-1.png)
+![VSCode](./inst/VSCode-1.png)
 
-![VSCode](media/VSCode-2.png)
+![VSCode](./inst/VSCode-2.png)
 
 ## Neovim
 
-![Neovim](media/Neovim-1.png)
+![Neovim](./inst/Neovim-1.png)
 
-![Neovim](media/Neovim-2.png)
+![Neovim](./inst/Neovim-2.png)
 
-![Neovim](media/Neovim-3.png)
+![Neovim](./inst/Neovim-3.png)
 
 ## RStudio
 
-![RStudio](media/RStudio-1.png)
+![RStudio](./isnt/RStudio-1.png)
 
-![RStudio](media/RStudio-2.png)
+![RStudio](./inst/RStudio-2.png)
 
 Wondering why `RStudio` looks different? Check out my other project, [daRkStudio](https://github.com/rileytwo/daRkStudio)
 
 ## Oh-My-Zsh! Prompt
 
-![OMZ](media/OMZ-git-status-clean.png)
+![OMZ](./inst/OMZ-git-status-clean.png)
 
-![OMZ](media/OMZ-git-status-dirty.png)
+![OMZ](./inst/OMZ-git-status-dirty.png)
 
 ## Notes
 
