@@ -1,7 +1,8 @@
 {
     "name": "kiss",
     "displayName": "Kiss Theme",
-    "version": "0.7.1",
+    "icon": "media/assets/kiss.png",
+    "version": "0.7.2",
     "publisher": "rileytwo",
     "description": "Keep It Stupid Simple. A dark and pleasant theme.",
     "author": {
