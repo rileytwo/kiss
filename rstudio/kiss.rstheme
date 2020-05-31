@@ -7,47 +7,52 @@
 /* rs-theme-is-dark: TRUE */
 :root {
   /* syntax highlights */
-  --keyword: #9691ff;
-  --type: #fcb4ae;
-  --string: #82ffa1;
-  --constant: #ff96ed;
-  --numeric-constant: #ff96ed;
-  --variable: #9691ff;
-  --regex: #73ff96;
-  --function-declaration: #3fb2ff;
-  --function: #3fb2ff;
-  --comment: #666666;
-  --sectionhead: #f9f1a5;
-  --operators: #ff8f86;
-  --punctuation: #3fb2ff;
-  --brackets: #d4d4d4;
+  --kiss-bracket: #d4d4d4;
+  --kiss-comment: #666666;
+  --kiss-constant: #FF7AB2;
+  --kiss-constant-numeric: #FFCDA8;
+  --kiss-function-declaration: #3fb2ff;
+  --kiss-function: #3fb2ff;
+
+  --kiss-keyword: #9691ff;
+  --kiss-operator: #ff8f86;
+  --kiss-punctuation: #3fb2ff;
+  --kiss-regex: #5CFEFF;
+  --kiss-sectionhead: #f9f1a5;
+  --kiss-string: #82ffa1;
+  --kiss-type: #fcb4ae;
+  --kiss-variable: #9691ff;
 
   /* markdown */
-  --heading: #73ff96;
-  --inline-code: var(--string);
-  --markdown-section: #3a3a3a;
+  --kiss-heading: #73ff96;
+  --kiss-inline-code: var(--kiss-string);
+  --kiss-markdown-section: #3a3a3a;
 
   /* editor/ui */
-  --ui-monospace-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
-    Courier, monospace;
-  --ui-background: #2c2c2c;
-  --input-background: #141414;
-  --borders: #0a0a0a;
-  --editor-background-color: #141414;
-  --editor-background: var(--editor-background-color);
-  --editor-foreground: #f6f6f6;
-  --gutter: #181818;
-  --gutter-foreground: #e2e2e2;
-  --cursor: #0bcaff;
+  --kiss-border: #0a0a0a;
+  --kiss-cursor: #79b8ff;
+  --kiss-editor-bg: #141414;
+  --kiss-editor-fg: #f6f6f6;
+  --kiss-editor-ruler: #555555;
+  --kiss-gutter: #181818;
+  --kiss-gutter-fg: #e2e2e2;
+  --kiss-input-bg: #141414;
+  --kiss-ui-bg: #2c2c2c;
 
-  --separator: #333333;
-  --active-tabs: #3b3b3b;
-  --tab: #282828;
-  --selected-tab: var(--editor-background-color);
+  --kiss-active-tab: #3b3b3b;
+  --kiss-selected-tab: var(--kiss-editor-bg);
+  --kiss-separator: #333333;
+  --kiss-tab: #282828;
 
-  --scrollbar-bg: #282828;
-  --scrollbar-bg-hover: #333333;
-  --scrollbar-bg-active: #3482d1;
+  --kiss-scrollbar-bg-active: #3482d1;
+  --kiss-scrollbar-bg-hover: #333333;
+  --kiss-scrollbar-bg: #282828;
+
+  /** This does NOT affect the font selected in settings.
+  *   --kiss-ui-monospace-font changes ONLY the monospace
+  *   font in the help pane.
+  */
+  --kiss-ui-monospace-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 /**
@@ -63,15 +68,15 @@
 ::-webkit-scrollbar-thumb {
   border: none !important;
   border-radius: 0 !important;
-  background-color: var(--scrollbar-bg) !important;
+  background-color: var(--kiss-scrollbar-bg) !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--scrollbar-bg-hover) !important;
+  background-color: var(--kiss-scrollbar-bg-hover) !important;
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background-color: var(--scrollbar-bg-active) !important;
+  background-color: var(--kiss-scrollbar-bg-active) !important;
 }
 
 ::-webkit-scrollbar,
@@ -81,11 +86,11 @@
 }
 
 ::-webkit-scrollbar-track:vertical {
-  box-shadow: inset 1px 0 0 0 var(--scrollbar-bg);
+  box-shadow: inset 1px 0 0 0 var(--kiss-scrollbar-bg);
 }
 
 /* #rstudio_container.editor_dark.rstudio-themes-flat.rstudio-themes-dark-menus.rstudio-themes-dark.rstudio-themes-scrollbars.rstudio-themes-dark-grey.ace_editor_theme.windows { */
-/* background-color: (var(--scrollbar-bg)); */
+/* background-color: (var(--kiss-scrollbar-bg)); */
 /* } */
 
 /**
@@ -95,18 +100,18 @@
 */
 
 /* #rstudio_workbench_panel_help * :-webkit-any(code) {
-   font-family: var(--ui-monospace-font) !important;
+   font-family: var(--kiss-ui-monospace-font) !important;
  } */
 /* .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme p code, */
 /* .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme pre,  */
 /* .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme pre code, */
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme
   :-webkit-any(pre, code) {
-  font-family: var(--ui-monospace-font) !important;
+  font-family: var(--kiss-ui-monospace-font) !important;
 }
 
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
-  color: var(--cursor) !important;
+  color: var(--kiss-cursor) !important;
 }
 
 /**
@@ -116,20 +121,20 @@
 */
 
 .ace_gutter {
-  background: var(--gutter);
-  color: var(--gutter-foreground);
+  background: var(--kiss-gutter);
+  color: var(--kiss-gutter-fg);
 }
 
 .ace_identifier {
-  color: var(--editor-foreground);
+  color: var(--kiss-editor-fg);
 }
 
 .ace_editor,
 .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph,
 .rstudio-themes-flat.ace_editor_theme,
 .rstudio-themes-flat .ace_editor_theme {
-  background-color: var(--editor-background-color);
-  color: var(--editor-foreground);
+  background-color: var(--kiss-editor-bg);
+  color: var(--kiss-editor-fg);
 }
 
 .ace_indent-guide {
@@ -138,150 +143,150 @@
 }
 
 .ace_comment.ace_doc.ace_tag {
-  color: var(--comment);
+  color: var(--kiss-comment);
   font-style: normal;
 }
 
 .ace_print-margin {
   width: 1px;
-  background: #555555;
+  background: var(--kiss-editor-ruler);
 }
 
 .ace_entity.ace_other.ace_attribute-name {
-  color: var(--constant);
+  color: var(--kiss-constant);
 }
 
 .ace_storage {
-  color: var(--variable);
+  color: var(--kiss-variable);
 }
 
 .ace_cursor,
 .ace_string.ace_regexp {
-  color: var(--cursor);
+  color: var(--kiss-cursor);
 }
 
 /* vim cursor */
 .normal-mode .ace_cursor {
   border: 0 !important;
-  background-color: var(--cursor);
+  background-color: var(--kiss-cursor);
   opacity: 0.5;
 }
 
 .ace_keyword,
 .ace_meta {
-  color: var(--keyword);
+  color: var(--kiss-keyword);
   font-weight: normal;
 }
 
 .ace_support.ace_class,
 .ace_support.ace_type {
   font-style: normal;
-  color: var(--keyword);
+  color: var(--kiss-keyword);
 }
 
 .ace_constant.ace_character,
 .ace_constant.ace_other {
-  color: var(--constant);
+  color: var(--kiss-constant);
 }
 
 .ace_constant.ace_language {
-  color: var(--constant);
+  color: var(--kiss-constant);
   font-weight: normal;
 }
 
 .ace_fold {
-  background-color: #50fa7b;
+  background-color: #79b8ff;
   border-color: #f8f8f2;
 }
 
 .ace_entity.ace_name.ace_function {
-  color: var(--function-declaration);
+  color: var(--kiss-function-declaration);
 }
 
 .ace_entity.ace_name.ace_tag {
-  color: var(--type);
+  color: var(--kiss-type);
 }
 
 .ace_support.ace_function {
-  color: var(--function);
+  color: var(--kiss-function);
   /* text-shadow: */
 }
 
 .ace_variable,
 .ace_variable.ace_language {
-  color: var(--variable);
+  color: var(--kiss-variable);
 }
 
 .ace_string {
-  color: var(--string);
+  color: var(--kiss-string);
 }
 
 .ace_heading {
-  color: var(--heading);
+  color: var(--kiss-heading);
   font-weight: 500;
   /* text-shadow: */
 }
 
 /* Markdown syntax fixes */
 .ace_string.ace_blockquote {
-  color: var(--markdown-section);
+  color: var(--kiss-markdown-section);
   z-index: -1;
 }
 
 .ace_constant.ace_language.ace_boolean {
-  color: var(--constant);
+  color: var(--kiss-constant);
 }
 
 .ace_numeric.ace_constant {
-  color: var(--numeric-constant);
+  color: var(--kiss-constant-numeric);
   /* text-shadow: */
 }
 
 .ace_comment.ace_sectionhead {
-  color: var(--sectionhead);
+  color: var(--kiss-sectionhead);
   font-style: normal;
   font-weight: normal;
 }
 
 .ace_comment {
-  color: var(--comment);
+  color: var(--kiss-comment);
   font-style: normal;
   font-weight: normal;
 }
 
 .ace_constant.ace_character.ace_escape {
-  color: var(--regex);
+  color: var(--kiss-regex);
 }
 
 .ace_support.ace_constant {
-  color: var(--constant);
+  color: var(--kiss-constant);
   /* text-shadow: */
 }
 
 .ace_storage.ace_type {
-  color: var(--type);
+  color: var(--kiss-type);
 }
 
 .ace_paren.ace_keyword.ace_operator {
   font-weight: normal;
-  color: var(--brackets) !important;
+  color: var(--kiss-bracket) !important;
   /* text-shadow: */
 }
 
 .ace_keyword.ace_operator {
   font-weight: normal;
-  color: var(--operators) !important;
+  color: var(--kiss-operator) !important;
   /* text-shadow: */
 }
 
 .ace_keyword.ace_operator.ace_infix {
-  color: var(--keyword) !important;
+  color: var(--kiss-keyword) !important;
   /* text-shadow: */
 }
 
 .ace_punctuation.ace_keyword.ace_operator {
   font-weight: normal;
-  color: var(--punctuation) !important;
+  color: var(--kiss-punctuation) !important;
   /* text-shadow: */
 }
 
@@ -294,7 +299,7 @@
 }
 
 .ace_selection.ace_start {
-  box-shadow: 0 0 3px 0px var(--comment);
+  box-shadow: 0 0 3px 0px var(--kiss-comment);
   border-radius: 2px;
 }
 
@@ -384,20 +389,20 @@
 /* WIP BEWARE */
 /* .rstudio-themes-dark :-webkit-any(.rstheme_toolbarWrapper, #rstudio_find_replace_bar) .search, .rstudio-themes-flat .themedPopupPanel .search */
 /* .rstheme_tabLayoutCenter, gwt-TabLayoutPanelTabs { */
-/* background-color: var(--input-background) !important; */
-/* border-color: var(--borders) !important; */
+/* background-color: var(--kiss-input-bg) !important; */
+/* border-color: var(--kiss-borders) !important; */
 /* } */
 
 /* .dataGridHeader { */
-/* background-color: var(--ui-background); */
-/* border-color: var(--borders); */
+/* background-color: var(--kiss-ui-bg); */
+/* border-color: var(--kiss-borders); */
 /* } */
 
 /* .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter, */
 /* .rstheme_secondaryToolbar, */
 /* .rstheme_toolbarWrapper { */
-/* background-color: var(--active-tabs) !important; */
-/* border-color: var(--borders) !important; */
+/* background-color: var(--kiss-active-tabs) !important; */
+/* border-color: var(--kiss-borders) !important; */
 /* } */
 /* WIP END */
 
@@ -450,8 +455,8 @@
 }
 
 .terminal {
-  background-color: var(--editor-background-color);
-  color: var(--editor-foreground);
+  background-color: var(--kiss-editor-bg);
+  color: var(--kiss-editor-fg);
   font-feature-settings: "liga" 1;
   position: relative;
   user-select: none;
