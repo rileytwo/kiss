@@ -1,8 +1,8 @@
 {
     "name": "kiss",
     "displayName": "Kiss Theme",
-    "icon": "./inst/assets/kiss.png",
-    "version": "0.7.2",
+    "icon": "inst/assets/kiss.png",
+    "version": "0.7.3",
     "publisher": "rileytwo",
     "description": "Keep It Stupid Simple. A dark and pleasant theme.",
     "author": {
@@ -34,7 +34,7 @@
             {
                 "label": "Kiss",
                 "uiTheme": "vs-dark",
-                "path": "./themes/kiss-color-theme.json"
+                "path": "themes/kiss-color-theme.json"
             }
         ]
     }
