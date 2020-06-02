@@ -3,13 +3,13 @@
 A simple theme for `VSCode`.
 
 ## Python
-![Python](./inst/VSCode-1.png)
+![Python](inst/VSCode-1.png)
 
 ## JavaScript
-![Javascript](./inst/VSCode-2.png)
+![Javascript](inst/VSCode-2.png)
 
 ## R
-![R](./inst/VSCode-3.png)
+![R](inst/VSCode-3.png)
 
 ## Markdown
-![Markdown](./inst/VSCode-4.png)
+![Markdown](inst/VSCode-4.png)
