@@ -52,12 +52,12 @@
 		"list.hoverBackground"            : "#2E2E2E",
 		"list.deemphasizedForeground"     : "#DDDDDD",
 
-		"list.warningForeground": "#ffdf5d",
-		"list.errorForeground": "#f97583",
+		"list.warningForeground"    : "#ffdf5d",
+		"list.errorForeground"      : "#f97583",
 		"list.invalidItemForeground": "#fb8532",
 
 		"panel.background": "#111111",
-		"panel.border": "#000000",
+		"panel.border"    : "#000000",
 
 		"peekViewResult.selectionForeground": "#e6e6e6",
 
@@ -172,11 +172,14 @@
 		"editor.lineHighlightBackground": "#959da530",
 
 		// Git
-		"gitDecoration.addedResourceForeground": "#85e89d",
-		"gitDecoration.deletedResourceForeground": "#fdaeb7",
-		"gitDecoration.modifiedResourceForeground": "#79b8ff",
+		"gitDecoration.addedResourceForeground"    : "#85e89d",
+		"gitDecoration.deletedResourceForeground"  : "#fdaeb7",
+		"gitDecoration.modifiedResourceForeground" : "#79b8ff",
 		"gitDecoration.untrackedResourceForeground": "#ffea7f",
-		"gitDecoration.ignoredResourceForeground": "#6a737d",
+		"gitDecoration.ignoredResourceForeground"  : "#6a737d",
+
+		"diffEditor.insertedTextBackground": "#85e89d25",
+		"diffEditor.removedTextBackground" : "#fdaeb725",
 
 		// Terminal
 		"terminal.background"         : "#1A1A1A",
