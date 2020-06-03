@@ -1,5 +1,7 @@
 # Kiss: Keep It Stupid Simple
 
+<img src="inst/assets/kiss.png" width=128px height=128px>
+
 A simple theme for `VSCode`.
 
 ## Python
