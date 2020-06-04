@@ -1,9 +1,9 @@
 {
     "name": "kiss",
     "displayName": "Kiss Theme",
-    "icon": "inst/assets/kiss.png",
-    "version": "0.7.4",
+    "version": "0.7.6",
     "publisher": "rileytwo",
+    "icon": "inst/assets/kiss.png",
     "description": "Keep It Stupid Simple. A dark and pleasant theme.",
     "author": {
         "name": "Riley Roach"
