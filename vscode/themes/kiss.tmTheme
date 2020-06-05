@@ -1032,6 +1032,19 @@
       <!-- SHELL -->
       <dict>
         <key>name</key>
+        <string>Keywords and Conditionals</string>
+        <key>scope</key>
+        <string>keyword.control.shell, punctuation.separator.statement.and.shell, punctuation.separator.statement.or.shell</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string />
+          <key>foreground</key>
+          <string>#9691FF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Variable Definition</string>
         <key>scope</key>
         <string>punctuation.definition.variable.shell</string>
