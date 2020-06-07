@@ -48,7 +48,7 @@
   --kiss-scrollbar-bg-hover: #333333;
   --kiss-scrollbar-bg: #282828;
 
-  --kiss-help-monospace-font-fg: ##2188FF;
+  --kiss-help-monospace-font-fg: #2188FF;
 
   /** This does NOT affect the font selected in settings.
   *   --kiss-ui-monospace-font changes ONLY the monospace
