@@ -48,6 +48,8 @@
   --kiss-scrollbar-bg-hover: #333333;
   --kiss-scrollbar-bg: #282828;
 
+  --kiss-help-monospace-font-fg: ##2188FF;
+
   /** This does NOT affect the font selected in settings.
   *   --kiss-ui-monospace-font changes ONLY the monospace
   *   font in the help pane.
@@ -108,6 +110,10 @@
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme
   :-webkit-any(pre, code) {
   font-family: var(--kiss-ui-monospace-font) !important;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme p code {
+  color: var(--kiss-help-monospace-font-fg) !important;
 }
 
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
