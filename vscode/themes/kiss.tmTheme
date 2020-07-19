@@ -11,7 +11,7 @@
         <key>colorSpaceName</key>
         <string>sRGB</string>
         <key>comment</key>
-		<string>Keep It Stupid Simple. A dark and pleasant theme.</string>
+        <string>Keep It Stupid Simple. A dark and pleasant theme.</string>
         <key>uuid</key>
         <string>38493303-bc02-4c5b-aa26-f0aae707e30d</string>
         <key>settings</key>
@@ -1088,6 +1088,32 @@
                     <string />
                     <key>foreground</key>
                     <string>#fcb4ae</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>/dev</string>
+                <key>scope</key>
+                <string>entity.name.command.shell</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string />
+                    <key>foreground</key>
+                    <string>#fcb4ae</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Options</string>
+                <key>scope</key>
+                <string>constant.other.option.shell, constant.other.option.dash.shell</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string />
+                    <key>foreground</key>
+                    <string>#FFCDA8</string>
                 </dict>
             </dict>
             <dict>
