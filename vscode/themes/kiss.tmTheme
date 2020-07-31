@@ -1152,7 +1152,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FF8BBC</string>
+                    <string>#FF7AB2</string>
                 </dict>
             </dict>
             <dict>
@@ -1171,15 +1171,28 @@
             <!-- POWERSHELL -->
             <dict>
                 <key>name</key>
-                <string>PowerShell Variable Punctuation ($)</string>
+                <string>PowerShell Variables</string>
                 <key>scope</key>
-                <string>punctuation.definition.variable.powershell</string>
+                <string>punctuation.definition.variable.powershell,variable.other.readwrite.powershell,support.variable.drive.powershell</string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FF8BBC</string>
+                    <string>#FF8F86</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PowerShell Functions</string>
+                <key>scope</key>
+                <string>support.function.powershell</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string />
+                    <key>foreground</key>
+                    <string>#3fb2ff</string>
                 </dict>
             </dict>
             <dict>
@@ -1218,20 +1231,20 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#73c1f5</string>
+                    <string>#FFCDA8</string>
                 </dict>
             </dict>
             <dict>
                 <key>name</key>
-                <string>PowerShell Functions</string>
+                <string>PowerShell Function Keyword</string>
                 <key>scope</key>
-                <string>support.function.powershell, storage.type.powershell</string>
+                <string>storage.type.function.powershell</string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#3fb2ff</string>
+                    <string>#9691ff</string>
                 </dict>
             </dict>
             <dict>
@@ -1262,28 +1275,15 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>PowerShell Drive</string>
+                <string>PowerShell Constants and Automatic Variables</string>
                 <key>scope</key>
-                <string>support.variable.drive.powershell</string>
+                <string>constant.character.escape.powershell,support.constant.variable.powershell,support.variable.automatic.powershell</string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FF8BBC</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PowerShell ReadWrite Variable</string>
-                <key>scope</key>
-                <string>variable.other.readwrite.powershell</string>
-                <key>settings</key>
-                <dict>
-                    <key>fontStyle</key>
-                    <string />
-                    <key>foreground</key>
-                    <string>#FF8BBC</string>
+                    <string>#FF7AB2</string>
                 </dict>
             </dict>
             <!-- LOGS -->
