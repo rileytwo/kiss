@@ -41,12 +41,12 @@
 		"inputOption.activeBorder": "#333333",
 
 		"list.activeSelectionForeground"  : "#FCFCFC",
-		"list.activeSelectionBackground"  : "#0366d670",
+		"list.activeSelectionBackground"  : "#044289",
 		"list.inactiveSelectionForeground": "#DDDDDD",
-		"list.inactiveSelectionBackground": "#2c2c2c",
+		"list.inactiveSelectionBackground": "#04428970",
 		"list.focusForeground"            : "#FCFCFC",
-		"list.focusBackground"            : "#2188ff80",
-		"list.inactiveFocusBackground"    : "#2c2c2c",
+		"list.focusBackground"            : "#2188ff70",
+		"list.inactiveFocusBackground"    : "#2188ff50",
 		"list.highlightForeground"        : "#e6e6e6",
 		"list.hoverForeground"            : "#FCFCFC",
 		"list.hoverBackground"            : "#2c2c2c",
@@ -65,13 +65,13 @@
 
 		"progressBar.background": "#2188ff",
 
-		"quickInput.background": "#0F0F0F",
+		"quickInput.background": "#111111",
 		"quickInput.foreground": "#C6C6C6",
 
 		"searchEditor.findMatchBackground": "#EEEEEE40",
 
 		"scrollbar.shadow"                : "#000000",
-		"scrollbarSlider.activeBackground": "#0366d6",
+		"scrollbarSlider.activeBackground": "#2188ff",
 		"scrollbarSlider.background"      : "#2C2C2C",
 		"scrollbarSlider.hoverBackground" : "#505050",
 
