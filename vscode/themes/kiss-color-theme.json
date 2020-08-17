@@ -119,7 +119,7 @@
 		"editor.background": "#181818",
 		"editor.foreground": "#FCFCFC",
 
-		"editor.selectionBackground"         : "#CCCCCC20",
+		"editor.selectionBackground"         : "#CCCCCC30",
 		"editor.inactiveSelectionBackground": "#CCCCCC15",
 
 		"editor.selectionHighlightBackground": "#CCCCCC15",
