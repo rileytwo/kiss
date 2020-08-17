@@ -93,7 +93,7 @@
 		"sideBarSectionHeader.background": "#222222",
 		"sideBarSectionHeader.foreground": "#DDDDDD",
 
-		"statusBar.background"         : "#111111",
+		"statusBar.background"     : "#111111",
 		"statusBar.debuggingBorder": "#f97583",
 
 		"statusBar.noFolderBackground" : "#111111",
@@ -119,20 +119,20 @@
 		"editor.background": "#181818",
 		"editor.foreground": "#FCFCFC",
 
-		"editor.selectionBackground"         : "#EEEEEE20",
-		"editor.inactiveSelectionBackground": "#EEEEEE15",
+		"editor.selectionBackground"         : "#CCCCCC20",
+		"editor.inactiveSelectionBackground": "#CCCCCC15",
 
-		"editor.selectionHighlightBackground": "#EEEEEE20",
-		"editor.selectionHighlightBorder": "#EEEEEE14",
+		"editor.selectionHighlightBackground": "#CCCCCC15",
+		"editor.selectionHighlightBorder": "#CCCCCC15",
 
-		"editor.wordHighlightBackground": "#EEEEEE15",
-		"editor.wordHighlightBorder"    : "#EEEEEE10",
+		"editor.wordHighlightBackground": "#CCCCCC10",
+		"editor.wordHighlightBorder"    : "#CCCCCC10",
 
-		"editor.findMatchBackground": "#FFFFFF10",
-		"editor.findMatchBorder"    : "#FFFFFF30",
+		"editor.findMatchBackground": "#FFFFFF25",
+		"editor.findMatchBorder"    : "#FFFFFF10",
 
-		"editor.findMatchHighlightBackground": "#85e89d30",
-		"editor.findMatchHighlightBorder"    : "#85e89d30",
+		"editor.findMatchHighlightBackground": "#FFFFFF15",
+		"editor.findMatchHighlightBorder"    : "#FFFFFF15",
 
 		"editorOverviewRuler.findMatchForeground": "#444444",
 
