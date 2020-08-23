@@ -1,15 +1,14 @@
 ## kiss.zsh-theme
-# vim: tabstop=2:shiftwidth=2
+# vim:ft=zsh tabstop=2:shiftwidth=2
+# shellcheck disable=SC2168
 
 ## colors
 local b=$fg[blue]
 local g=$fg[green]
 local m=$fg[magenta]
-local y=$fg[yello]
 local w=$fg[white]
 local bb=$fg_bold[blue]
 local rb=$fg_bold[red]
-local gb=$fg_bold[green]
 
 
 
