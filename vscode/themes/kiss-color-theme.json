@@ -100,11 +100,15 @@
 		"statusBar.debuggingBackground": "#111111",
 		"statusBar.border"             : "#000000",
 
-		"tab.inactiveBackground"   : "#111111",
-		"tab.activeBackground"     : "#181818",
-		"tab.activeModifiedBorder" : "#2188ff",
-		"tab.activeBorderTop"      : "#2188ff",
-		"tab.unfocusedActiveBorder": "#0366d650",
+		"tab.activeBackground"           : "#181818",
+		"tab.activeBorder"               : "#2188ff",
+		"tab.activeForeground"           : "#FFFFFF",
+		"tab.activeModifiedBorder"       : "#2188ff",
+		"tab.inactiveBackground"         : "#111111",
+		"tab.unfocusedInactiveBackground": "#111111",
+		"tab.unfocusedActiveBackground"  : "#111111",
+		"tab.unfocusedActiveBorder"      : "#044289",
+		"tab.hoverBackground"            : "#2c2c2c",
 
 		"textLink.activeForeground": "#c8e1ff",
 		"textLink.foreground"      : "#79b8ff",
@@ -161,8 +165,10 @@
 		"editorCursor.foreground"    : "#FCFCFC",
 		"editorWhitespace.foreground": "#222222",
 
+		"editorGroup.border": "#000000",
+
 		"editorGroupHeader.tabsBackground"  : "#111111",
-		"editorGroupHeader.noTabsBackground": "#111111",
+		"editorGroupHeader.noTabsBackground": "#181818",
 
 		"editorIndentGuide.activeBackground": "#444444",
 		"editorIndentGuide.background"      : "#202020",
