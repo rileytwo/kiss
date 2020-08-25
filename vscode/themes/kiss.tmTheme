@@ -109,6 +109,19 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>Type</string>
+                <key>scope</key>
+                <string>entity.name.type</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string />
+                    <key>foreground</key>
+                    <string>#fcb4ae</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>User-defined constant</string>
                 <key>scope</key>
                 <string>constant.character, constant.other</string>
@@ -217,7 +230,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#ff6c62</string>
+                    <string>#FF8F86</string>
                 </dict>
             </dict>
             <dict>
@@ -429,7 +442,7 @@
                 <key>name</key>
                 <string>Python: Class</string>
                 <key>scope</key>
-                <string>entity.name.type, entity.name.type.class.python</string>
+                <string>entity.name.type.class.python</string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
@@ -440,15 +453,15 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>Python: Function Definition</string>
+                <string>Python: Methods</string>
                 <key>scope</key>
-                <string>entity.name.function.python, punctuation.section.function.begin.python</string>
+                <string>entity.name.function.python,punctuation.section.function.begin.python</string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FF8F86</string>
+                    <string>#fcb4ae</string>
                 </dict>
             </dict>
             <dict>
