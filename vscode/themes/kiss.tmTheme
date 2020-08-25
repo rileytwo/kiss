@@ -224,13 +224,13 @@
                 <key>name</key>
                 <string>Function argument</string>
                 <key>scope</key>
-                <string>variable.parameter</string>
+                <string>variable.parameter,variable.parameter.function</string>
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FF8F86</string>
+                    <string>#E6E6E6</string>
                 </dict>
             </dict>
             <dict>
@@ -320,17 +320,6 @@
                     <string>#ff9664</string>
                     <key>foreground</key>
                     <string>#F8F8F0</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Text</string>
-                <key>scope</key>
-                <string>variable.parameter.function</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string />
                 </dict>
             </dict>
             <!-- PYTHON -->
@@ -526,7 +515,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#ececec</string>
+                    <string>#E6E6E6</string>
                 </dict>
             </dict>
             <dict>
@@ -539,7 +528,7 @@
                     <key>fontStyle</key>
                     <string>normal</string>
                     <key>foreground</key>
-                    <string>#d4d4d4</string>
+                    <string>#D4D4D4</string>
                 </dict>
             </dict>
             <dict>
@@ -612,7 +601,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FCB4AE</string>
+                    <string>#E6E6E6</string>
                 </dict>
             </dict>
             <dict>
@@ -1087,7 +1076,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FF8F86</string>
+                    <string>#FCB4AE</string>
                 </dict>
             </dict>
             <dict>
@@ -1244,7 +1233,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#FFCDA8</string>
+                    <string>#E6E6E6</string>
                 </dict>
             </dict>
             <dict>
