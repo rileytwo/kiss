@@ -16,7 +16,7 @@ local rb=$fg_bold[red]
 local git_info='$(git_prompt_info)'
 local check="%{$g%}%{$reset_color%}"
 local squares="%{$rb%}署%{$reset_color%}"
-
+local prefix="->"
 
 
 ## git info
@@ -30,7 +30,7 @@ setopt PROMPT_SUBST
 precmd_prompt() {
   PROMPT="%{$m%}${PWD/#$HOME/~}%  ${git_info}%{$reset_color%}"
   PROMPT+=$'\n'
-  PROMPT+="-> "
-  PROMPT2="%{$w%}-> "
+  PROMPT+="${prefix} "
+  PROMPT2="%{$w%}${prefix}%{$reset_color%} "
 }
 precmd_functions+=(precmd_prompt)
