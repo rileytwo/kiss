@@ -706,6 +706,19 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>Lua Classes</string>
+                <key>scope</key>
+                <string>entity.name.class.lua</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string />
+                    <key>foreground</key>
+                    <string>#F0F0F0</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>Lua Method Dots</string>
                 <key>scope</key>
                 <string>punctuation.accessor</string>
