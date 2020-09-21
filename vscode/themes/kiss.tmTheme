@@ -713,8 +713,6 @@
                 <dict>
                     <key>fontStyle</key>
                     <string />
-                    <key>foreground</key>
-                    <string>#F0F0F0</string>
                 </dict>
             </dict>
             <dict>
