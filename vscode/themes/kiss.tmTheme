@@ -16,12 +16,9 @@
         <string>38493303-bc02-4c5b-aa26-f0aae707e30d</string>
         <key>settings</key>
         <array>
-            <!-- GLOBAL -->
             <dict>
                 <key>settings</key>
                 <dict>
-                    <!-- <key>background</key> -->
-                    <!-- <string>#161616</string> -->
                     <key>foreground</key>
                     <string>#E6E6E6</string>
                     <key>invisibles</key>
@@ -322,7 +319,6 @@
                     <string>#F8F8F0</string>
                 </dict>
             </dict>
-            <!-- PYTHON -->
             <dict>
                 <key>name</key>
                 <string>Python: Keywords</string>
@@ -380,23 +376,6 @@
                 <dict>
                     <key>fontStyle</key>
                     <string />
-                    <key>foreground</key>
-                    <string>#FCB4AE</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Python Type</string>
-                <key>scope</key>
-                <string>
-                    <!-- support.type.python -->
-                    <!-- punctuation.definition.list.begin.python, -->
-                    <!-- punctuation.definition.list.end.python, -->
-                    <!-- punctuation.definition.dict.begin.python, -->
-                    <!-- punctuation.definition.dict.end.python -->
-                </string>
-                <key>settings</key>
-                <dict>
                     <key>foreground</key>
                     <string>#FCB4AE</string>
                 </dict>
@@ -544,7 +523,6 @@
                     <string>#6D6D6D</string>
                 </dict>
             </dict>
-            <!-- R -->
             <dict>
                 <key>name</key>
                 <string>R Keyword: Function</string>
@@ -692,7 +670,6 @@
                     <string>#E6E6E6</string>
                 </dict>
             </dict>
-            <!-- Lua -->
             <dict>
                 <key>name</key>
                 <string>Lua Vairables</string>
@@ -726,7 +703,6 @@
                     <string>#3FB2FF</string>
                 </dict>
             </dict>
-            <!-- CSS -->
             <dict>
                 <key>name</key>
                 <string>CSS Functions: Property Values</string>
@@ -817,7 +793,6 @@
                     <string>#9691FF</string>
                 </dict>
             </dict>
-            <!-- MARKDOWN -->
             <dict>
                 <key>name</key>
                 <string>Markdown Underlined Link</string>
@@ -970,7 +945,6 @@
                     <string>#bababa</string>
                 </dict>
             </dict>
-            <!-- JAVASCRIPT -->
             <dict>
                 <key>name</key>
                 <string>JS: Functions</string>
@@ -1023,7 +997,6 @@
                     <string>#F0F0F0</string>
                 </dict>
             </dict>
-            <!-- XML/tags -->
             <dict>
                 <key>name</key>
                 <string>XML: Tag Punctuation</string>
@@ -1050,7 +1023,6 @@
                     <string>#3FB2FF</string>
                 </dict>
             </dict>
-            <!-- SHELL -->
             <dict>
                 <key>name</key>
                 <string>Keywords and Conditionals</string>
@@ -1181,7 +1153,6 @@
                     <string>#9691FF</string>
                 </dict>
             </dict>
-            <!-- POWERSHELL -->
             <dict>
                 <key>name</key>
                 <string>PowerShell Variables</string>
@@ -1299,7 +1270,6 @@
                     <string>#FF7AB2</string>
                 </dict>
             </dict>
-            <!-- LOGS -->
             <dict>
                 <key>name</key>
                 <string>Log Constants</string>
@@ -1313,7 +1283,6 @@
                     <string>#3FB2FF</string>
                 </dict>
             </dict>
-            <!-- SQL -->
             <dict>
                 <key>name</key>
                 <string>SQL DB Name</string>
@@ -1338,151 +1307,6 @@
                     <string />
                     <key>foreground</key>
                     <string>#F0F0F0</string>
-                </dict>
-            </dict>
-            <!-- TWIG -->
-            <dict>
-                <key>name</key>
-                <string>Twig Tagbraces</string>
-                <key>scope</key>
-                <string>meta.tag.template.value.twig, meta.tag.template.block.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#CD5AC5</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Keywords</string>
-                <key>scope</key>
-                <string>keyword.control.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#E05D8C</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Objects</string>
-                <key>scope</key>
-                <string>variable.other.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#E5A5E0</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Object Properties</string>
-                <key>scope</key>
-                <string>variable.other.property.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FFE1FC</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Language Constants</string>
-                <key>scope</key>
-                <string>constant.language.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FFD2A6</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Numerical Constants</string>
-                <key>scope</key>
-                <string>constant.numeric.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FFD0FB</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Filters</string>
-                <key>scope</key>
-                <string>support.function.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#90E7F7</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig User-Defined Filters</string>
-                <key>scope</key>
-                <string>meta.function-call.other.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FAB85A</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Twig Macros</string>
-                <key>scope</key>
-                <string>meta.function-call.twig</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FAB85A</string>
-                </dict>
-            </dict>
-            <!-- PHP -->
-            <dict>
-                <key>name</key>
-                <string>PHP Namespaces</string>
-                <key>scope</key>
-                <string>support.other.namespace, entity.name.type.namespace</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FFB2F9</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Namespace Alias</string>
-                <key>scope</key>
-                <string>support.other.namespace.use-as.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#8CDAFF</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Namespace Keyword</string>
-                <key>scope</key>
-                <string>variable.language.namespace.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#D66990</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Namespace Separator</string>
-                <key>scope</key>
-                <string>punctuation.separator.inheritance.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#F92672</string>
                 </dict>
             </dict>
         </array>
